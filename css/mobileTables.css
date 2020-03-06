@@ -1,0 +1,35 @@
+@media only screen and (max-width: 915px) {
+    table {
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        background: none;
+    }
+    tr th {
+        display: none;
+    }
+    tr td:first-child {
+        margin-top: .5rem;
+        font-weight: bold;
+        font-size: 1.3em;
+    }
+    tr td:last-child {
+        margin-bottom: .5rem;
+    }
+    table tr {
+        border-bottom: none;
+    }
+    td {
+        margin: 0 auto;
+        display: block;
+        background: rgba(255, 255, 255, 0.2);
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-width: 80%;
+        border: none;
+    }
+    tr td:before {
+        content: attr(data-th);
+        display: block;
+    }
+}
