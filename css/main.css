@@ -13,20 +13,9 @@ body {
     transform: translateZ(0);
 }
 
-body::before {
-    content: ' ';
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    min-height: 100vh;
+body {
     background: url('../img/bg-test.jpg') no-repeat center center fixed;
     background-size: cover;
-    z-index: -1;
-}
-
-body {
-    
     min-height: 100vh;
     -webkit-font-smoothing: antialiased;
     font-family: 'Maven Pro', sans-serif;
