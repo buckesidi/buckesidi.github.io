@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLFdJJxSm7_nEHKkJeQG3IpTdRRed5Rz2a" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/videoseries?list=PLFdJJxSm7_nEHKkJeQG3IpTdRRed5Rz2a" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <h2>Ostanite kod kuće ❤️</h2>
 
