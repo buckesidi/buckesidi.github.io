@@ -93,6 +93,12 @@ table tr td:last-child {
     font-family: 'Oswald', sans-serif;
 }
 
+iframe {
+    margin: 0 auto;
+    width: 100%;
+    max-height: max(600px, 50vh); 
+}
+
 footer {
     margin: 2rem 0 .2rem 0 ;
     text-align: center;
