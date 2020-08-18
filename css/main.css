@@ -18,7 +18,8 @@ body {
     background-size: cover;
     min-height: 100vh;
     -webkit-font-smoothing: antialiased;
-    font-family: 'Tusker Grotesk 6600 Semibold', 'Heading Smallcase Pro ExtraBold', 'Maven Pro', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
