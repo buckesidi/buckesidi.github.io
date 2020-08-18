@@ -4,7 +4,7 @@
 
 html,
 body {
-    background: #770023;
+    background: #0d101c;
     margin: 0;
     min-height: 100vh;
     position: relative;
@@ -14,11 +14,11 @@ body {
 }
 
 body {
-    background: url('../img/bg-test.jpg') no-repeat center center fixed;
+    background: url('../img/bg-zrno.jpg') no-repeat center center fixed;
     background-size: cover;
     min-height: 100vh;
     -webkit-font-smoothing: antialiased;
-    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Tusker Grotesk 6600 Semibold', 'Heading Smallcase Pro ExtraBold', 'Maven Pro', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,7 +38,7 @@ h2 {
     text-align: center;
     font-size: 2.5rem;
     font-style: normal;
-    color: #eee;
+    color: #e4473d;
 }
 
 main {
