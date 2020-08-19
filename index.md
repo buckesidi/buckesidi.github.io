@@ -11,7 +11,7 @@ layout: default
 <h1> Euforija - novi album </h1>
 
 <div class="w3-container">
-  <div style="position: relative; z-index: 0;">
+  <div style="position: relative; z-index: 0; float: left;">
     <img src="img/Euforija-omot.jpg" alt="Omot">
   </div>
   <div style="position: relative; z-index: 0;">
