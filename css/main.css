@@ -42,7 +42,7 @@ img {
 .djubre{
     position: relative;
     margin: 10px auto;
-    display: inline-block;
+    float: left;
     z-index: 0;
 }
     
