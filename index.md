@@ -5,6 +5,7 @@ layout: default
 <iframe src="https://www.youtube.com/embed/videoseries?list=PLFdJJxSm7_nEHKkJeQG3IpTdRRed5Rz2a" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
+{% comment %}
 
 <section id="novialbum">
 
@@ -26,7 +27,6 @@ layout: default
 </section>
 
 
-{% comment %}
 
 <section id="koncerti">
 
