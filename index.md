@@ -6,6 +6,7 @@ layout: default
 
 
 
+{% comment %}
 
 <section id="novialbum">
 
@@ -27,7 +28,6 @@ layout: default
 </section>
 
 
-{% comment %}
 
 <section id="koncerti">
 
