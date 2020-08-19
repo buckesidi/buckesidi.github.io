@@ -5,17 +5,17 @@ layout: default
 <iframe src="https://www.youtube.com/embed/videoseries?list=PLFdJJxSm7_nEHKkJeQG3IpTdRRed5Rz2a" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-{% comment %}
+
 
 <section id="novialbum">
 
 <h1> Euforija - novi album </h1>
 
-<div class="w3-container">
-  <div style="position: relative; z-index: 0; float: left;">
+<div class="kontejner">
+  <div class="djubre">
     <img src="img/Euforija-omot.jpg" alt="Omot">
   </div>
-  <div style="position: relative; z-index: 0;">
+  <div style="djubre">
     <ul>
     <li> <a class="button" href="https://open.spotify.com/album/17ic4waAX7buHeY0PGVwB4" target="_blank"> Spotify </a> </li>
     <li> <a class="button" href="https://www.deezer.com/sr/album/120025442" target="_blank"> Deezer </a> </li>
@@ -27,6 +27,7 @@ layout: default
 </section>
 
 
+{% comment %}
 
 <section id="koncerti">
 
