@@ -32,7 +32,8 @@ img {
 
 .button {
   background-color: Transparent;
-  border-bottom: 0.2em solid #e4473d;
+  border-bottom: 0.1em solid #e4473d;
+  padding: 0.2em;
   color: #e4473d;
   text-align: center;
   text-decoration: none;
