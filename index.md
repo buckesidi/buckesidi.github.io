@@ -5,7 +5,32 @@ layout: default
 <iframe src="https://www.youtube.com/embed/videoseries?list=PLFdJJxSm7_nEHKkJeQG3IpTdRRed5Rz2a" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
+
+<section id="novialbum">
+
+<h1> Euforija - novi album </h1>
+
+<div class="w3-container">
+  <div style="position: relative; z-index: 0;">
+    <img src="img/Euforija-omot.jpg" alt="Omot">
+  </div>
+  <div style="position: relative; z-index: 0;">
+    <ul>
+    <li> <a class="button" href="https://open.spotify.com/album/17ic4waAX7buHeY0PGVwB4" target="_blank"> Spotify </a> </li>
+    <li> <a class="button" href="https://www.deezer.com/sr/album/120025442" target="_blank"> Deezer </a> </li>
+    <li> <a class="button" href="https://buckesidi.bandcamp.com/album/euforija" target="_blank"> Bandcamp </a> </li>
+    </ul>
+  </div>
+</div>
+
+</section>
+
+
 {% comment %}
+
+<section id="koncerti">
+
+<h1> Predstojeći koncerti </h1>
 
 Datum:  | Mesto:           | Lokacija:                         |
 --------|------------------|-----------------------------------|----------------------------
@@ -16,5 +41,7 @@ Datum:  | Mesto:           | Lokacija:                         |
 17. APR | Vršac            | Dom Omladine Vršac                | [INFO](https://www.facebook.com/events/2788046581277972)
 18. APR | Zrenjanin        | Mitraljez                         | [INFO](https://www.facebook.com/events/184086823018476)
 19. APR | Šabac            | Kulturni Centar Šabac             | [INFO](https://www.facebook.com/events/2937986539594317)
+
+</section>
 
 {% endcomment %}
