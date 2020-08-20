@@ -5,15 +5,15 @@ layout: default
 <iframe src="https://www.youtube.com/embed/videoseries?list=PLFdJJxSm7_nEHKkJeQG3IpTdRRed5Rz2a" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
+{% comment %}
+
 <ul style="text-align: center; ">
-  <li> <a href="https://kontra.fanlink.to/euforija" target="_blank">Novi album</a> </li>
-  <li> <a href="koncerti">Koncerti</a> </li>
-  <li> <a href="radnja">Radnja</a> </li>
+  <li> <a href="https://kontra.fanlink.to/euforija" target="_blank">NOVI ALBUM - EUFORIJA</a> </li>
+  <li> <a href="koncerti">KONCERTI</a> </li>
+  <li> <a href="radnja">RADNJA</a> </li>
 </ul>
 
 
-
-{% comment %}
 
 <section id="novialbum">
 
