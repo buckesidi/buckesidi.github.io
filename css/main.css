@@ -18,7 +18,7 @@ body {
     background-size: cover;
     min-height: 100vh;
     -webkit-font-smoothing: antialiased;
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Myriad Pro' 'Barlow Condensed', sans-serif;
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -30,10 +30,19 @@ img {
     max-height: 60vh;
 }
 
+
+.item {
+    border: none;
+    height: 30vh;
+    width: 30vh;
+    margin: 1vh 1vw 1vh 1vw;
+    position: relative;
+    float: left;
+}
+
 .kontejner {
     border: none;
-    height: 100px;
-    width: 700px;
+    height: 50vh;
     margin: 10px;
     text-align:center;
     position:relative;
@@ -67,6 +76,7 @@ h2 {
     font-size: 2.5rem;
     font-style: normal;
     color: #e4473d;
+    margin: 2em;
 }
 
 main {
@@ -83,6 +93,7 @@ article {
 
 a {
     text-decoration: underline;
+    
     color:#eee;
 }
 
