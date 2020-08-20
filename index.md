@@ -5,6 +5,13 @@ layout: default
 <iframe src="https://www.youtube.com/embed/videoseries?list=PLFdJJxSm7_nEHKkJeQG3IpTdRRed5Rz2a" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
+<ul style="text-align: center;">
+  <li> <a href="https://kontra.fanlink.to/euforija" target="_blank">Novi album</a> </li>
+  <li> <a href="koncerti">Koncerti</a> </li>
+  <li> <a href="radnja">Radnja</a> </li>
+</ul>
+
+
 
 {% comment %}
 
@@ -16,7 +23,7 @@ layout: default
   <div class="djubre">
     <img src="img/Euforija-omot.jpg" alt="Omot">
   </div>
-  <div style="djubre">
+  <div class="djubre">
     <ul>
     <li> <a class="button" href="https://open.spotify.com/album/17ic4waAX7buHeY0PGVwB4" target="_blank"> Spotify </a> </li>
     <li> <a class="button" href="https://www.deezer.com/sr/album/120025442" target="_blank"> Deezer </a> </li>
