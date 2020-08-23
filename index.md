@@ -2,8 +2,7 @@
 layout: default
 ---
 
-<iframe src="https://www.youtube.com/embed/UMTMFX_IKkY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" style="width:80vw;
- height:calc(80vw/1.77); display:block;" allowfullscreen></iframe>
+<p align="center"><iframe src="https://www.youtube.com/embed/UMTMFX_IKkY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" style="width:80vw; height:calc(80vw/1.77);" allowfullscreen></iframe></p>
 
 
 {% comment %}
