@@ -2,12 +2,12 @@
 layout: default
 ---
 
-<p align="center"><iframe src="https://www.youtube.com/embed/UMTMFX_IKkY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" style="width:80vw; height:calc(80vw/1.77);" allowfullscreen></iframe></p>
+<iframe src="https://www.youtube.com/embed/UMTMFX_IKkY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 {% comment %}
 
-<ul style="text-align: center; ">
+<ul class="menu">
   <li> <a href="https://kontra.fanlink.to/euforija" target="_blank">NOVI ALBUM - EUFORIJA</a> </li>
   <li> <a href="koncerti">KONCERTI</a> </li>
   <li> <a href="radnja">RADNJA</a> </li>
@@ -16,22 +16,13 @@ layout: default
 
 
 <section id="novialbum">
-
-<h1> Euforija - novi album </h1>
-
-<div class="kontejner">
-  <div class="djubre">
-    <img src="img/Euforija-omot.jpg" alt="Omot">
-  </div>
-  <div class="djubre">
-    <ul>
-    <li> <a class="button" href="https://open.spotify.com/album/17ic4waAX7buHeY0PGVwB4" target="_blank"> Spotify </a> </li>
-    <li> <a class="button" href="https://www.deezer.com/sr/album/120025442" target="_blank"> Deezer </a> </li>
-    <li> <a class="button" href="https://buckesidi.bandcamp.com/album/euforija" target="_blank"> Bandcamp </a> </li>
-    </ul>
-  </div>
-</div>
-
+	<h1> Euforija - novi album </h1>
+	<img src="img/Euforija-omot.jpg" alt="Omot" />
+	<ul>
+		<li> <a class="button" href="https://open.spotify.com/album/17ic4waAX7buHeY0PGVwB4" target="_blank"> Spotify </a> </li>
+		<li> <a class="button" href="https://www.deezer.com/sr/album/120025442" target="_blank"> Deezer </a> </li>
+		<li> <a class="button" href="https://buckesidi.bandcamp.com/album/euforija" target="_blank"> Bandcamp </a> </li>
+	</ul>
 </section>
 
 

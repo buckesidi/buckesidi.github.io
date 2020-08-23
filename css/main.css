@@ -40,28 +40,6 @@ img {
     float: left;
 }
 
-.kontejner {
-    border: none;
-    height: 50vh;
-    margin: 10px;
-    text-align:center;
-    position:relative;
-}
-
-.djubre{
-    position: relative;
-    margin: 10px auto;
-    float: left;
-    z-index: 0;
-}
-
-.obavestenje {
-    background-color: #ffe100;
-    text-color: #000000;
-    width: 100vw;
-    padding: 0.2em;
-}
-
 .button {
   background-color: Transparent;
   border-bottom: 0.1em solid #e4473d;
@@ -141,7 +119,7 @@ table tr td:last-child {
 iframe {
     margin: 0 auto;
     width: 100%;
-    height: min(600px, 50vh); 
+    height: min(800px, 80vh); 
 }
 
 footer {
