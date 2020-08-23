@@ -2,7 +2,8 @@
 layout: default
 ---
 
-<iframe src="https://www.youtube.com/embed/UMTMFX_IKkY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/UMTMFX_IKkY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" style="width:50vw;
+ height:calc(100vw/1.77);" allowfullscreen></iframe>
 
 
 {% comment %}
