@@ -92,6 +92,7 @@ main {
     margin: 1rem auto 8rem auto;
     padding: 1rem;
     position: relative;
+    text-align: center;
 }
 
 article {
