@@ -4,6 +4,12 @@ layout: default
 
 <iframe src="https://www.youtube.com/embed/UMTMFX_IKkY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<link rel="stylesheet" href="/css/forms.css" />
+<script src="/js/preorder.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/themes@4.0.0/borderless/borderless.min.css" />
+<a href="#" onclick="showPreorderForm()"><h2>Naruči „Euforiju“ na vinilu!</h2></a>
+
 
 {% comment %}
 
