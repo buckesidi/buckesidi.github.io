@@ -8,7 +8,7 @@ layout: default
 <script src="/js/preorder.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/themes@4.0.0/borderless/borderless.min.css" />
-<h2><a href="#" onclick="showPreorderForm()">Naruči „Euforiju“ na vinilu!</a></h2>
+<h2><a href="#" onclick="showPreorderForm()">EUFORIJA VINYL PREORDER!</a></h2>
 
 
 {% comment %}
