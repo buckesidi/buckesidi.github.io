@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    color: #eee;
+    background: #3a4658;
+    padding: 12px;
+    border: 1px solid #202429;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #dd6b55;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #f27474;
+}
+
+fieldset {
+    border: none;
+}
+
+.hidden {
+    display: none;
+}
