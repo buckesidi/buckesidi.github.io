@@ -9,8 +9,13 @@ layout: default
 
 <a href="#" onclick="showPreorderForm()">
 	<img src="/img/ploca.png" alt="Vinyl album - Euforija" />
-	<h2>EUFORIJA VINYL PREORDER</h2>
 </a>
+<h2>
+	<a href="#" onclick="showPreorderForm()">
+		EUFORIJA VINYL PREORDER
+	</a>
+</h2>
+
 
 
 {% comment %}
