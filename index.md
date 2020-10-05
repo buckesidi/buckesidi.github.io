@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<iframe src="https://www.youtube.com/embed/UMTMFX_IKkY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<img src="/img/ploca.png" alt="Vinyl album - Euforija" />
 
 <link rel="stylesheet" href="/css/forms.css" />
 <script src="/js/preorder.js"></script>
@@ -12,6 +12,8 @@ layout: default
 
 
 {% comment %}
+
+<iframe src="https://www.youtube.com/embed/UMTMFX_IKkY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <ul class="menu">
   <li> <a href="https://kontra.fanlink.to/euforija" target="_blank">NOVI ALBUM - EUFORIJA</a> </li>
