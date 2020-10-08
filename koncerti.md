@@ -3,16 +3,12 @@ layout: default
 ---
 
 <div class="obavestenje">
-  <p>Usled trenutne epidemiološke situacije u zemlji i regionu, svi koncerti su pomereni do daljnjeg.</p>
+  <h1>Usled trenutne epidemiološke situacije u zemlji i regionu, svi koncerti su pomereni do daljnjeg.</h1>
 </div>
  
 
-<h1>  </h1>
-<h1>  </h1>
-<h1>  </h1>
-<h1>  </h1>
 
-
+{% comment %}
 
 
 <section id="koncerti">
@@ -30,3 +26,6 @@ Datum:  | Mesto:           | Lokacija:                         |
 19. APR | Šabac            | Kulturni Centar Šabac             | [INFO](https://www.facebook.com/events/2937986539594317)
 
 </section>
+
+
+{% endcomment %}
