@@ -4,12 +4,12 @@
 
 
 @font-face {
-    font-family: DrukText;
+    font-family: 'DrukText';
     src: url("../fonts/DrukText-Medium.otf") format("opentype");
 }
 
 @font-face {
-    font-family: DrukText;
+    font-family: 'DrukTextBold';
     font-weight: bold;
     src: url("../fonts/DrukText-Bold.otf") format("opentype");
 }
@@ -38,7 +38,7 @@ body {
 }
 
 body {
-    font-family: DrukText, sans-serif;
+    font-family: 'DrukText', sans-serif;
 }
 
 img {
@@ -80,8 +80,8 @@ h2 {
     text-decoration: none;
 }
 
-h2.hero-title {
-    font-family: DrukText, sans-serif;
+h2.hero-title a {
+    font-family: 'DrukText', sans-serif;
 }
 
 main {
