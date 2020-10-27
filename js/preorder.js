@@ -23,19 +23,19 @@ function showPreorderForm()
         <!-- Field type: "short" id: "790080973" -->
         <fieldset>
             <legend for="790080973">Ulica i broj</legend>
-            <textarea id="1065046570" name="entry.1065046570" class="form-control" required></textarea>
+            <input id="1065046570" type="text" name="entry.1065046570" class="form-control" required>
         </fieldset>
         
         <!-- Field type: "short" id: "1265461668" -->
         <fieldset>
             <legend for="1265461668">Grad</legend>
-            <textarea id="476110520" name="entry.476110520" class="form-control" required></textarea>
+            <input id="476110520" type="text" name="entry.476110520" class="form-control" required>
         </fieldset> 
 
         <!-- Field type: "short" id: "1316787962" -->
         <fieldset>
             <legend for="1316787962">Poštanski broj</legend>
-            <textarea id="2134337608" name="entry.2134337608" class="form-control" required></textarea>
+            <input id="2134337608" type="text" name="entry.2134337608" class="form-control" required>
         </fieldset> 
 
      
@@ -51,9 +51,6 @@ function showPreorderForm()
             <input id="1045781291" type="text" name="entry.1045781291" class="form-control" required>
         </fieldset>
 
-        <input type="hidden" name="fvv" value="1">
-        <input type="hidden" name="fbzx" value="-2455484333168085333">
-        <input type="hidden" name="pageHistory" value="0">
         <fieldset>
             <input class="btn btn-primary" type="submit" value="Pošalji">
         </fieldset>
