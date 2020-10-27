@@ -12,26 +12,43 @@ function showPreorderForm()
             <legend for="1633920210">Ime i prezime</legend>
             <input id="2005620554" type="text" name="entry.2005620554" class="form-control" required>
         </fieldset>
-
-
-        <!-- Field type: "paragraph" id: "790080973" -->
+        
+        <!-- Field type: "short" id: "235329302" -->
         <fieldset>
-            <legend for="790080973">Adresa za slanje (ulica i broj, grad, država)</legend>
+            <legend for="235329302">Država</legend>
+            <input id="835883743" type="text" name="entry.835883743" class="form-control" required>
+        </fieldset>
+
+
+        <!-- Field type: "short" id: "790080973" -->
+        <fieldset>
+            <legend for="790080973">Ulica i broj</legend>
             <textarea id="1065046570" name="entry.1065046570" class="form-control" required></textarea>
         </fieldset>
-
-
-        <!-- Field type: "short" id: "227649005" -->
+        
+        <!-- Field type: "short" id: "1265461668" -->
         <fieldset>
-            <legend for="227649005">E-mail</legend>
-            <input id="1045781291" type="text" name="entry.1045781291" class="form-control" required>
-        </fieldset>
+            <legend for="1265461668">Grad</legend>
+            <textarea id="476110520" name="entry.476110520" class="form-control" required></textarea>
+        </fieldset> 
 
+        <!-- Field type: "short" id: "1316787962" -->
+        <fieldset>
+            <legend for="1316787962">Poštanski broj</legend>
+            <textarea id="2134337608" name="entry.2134337608" class="form-control" required></textarea>
+        </fieldset> 
 
+     
         <!-- Field type: "short" id: "1770822543" -->
         <fieldset>
-            <legend for="1770822543">Broj telefona</legend>
+            <legend for="1770822543">Telefon</legend>
             <input id="1166974658" type="text" name="entry.1166974658" class="form-control" >
+        </fieldset>
+        
+        <!-- Field type: "short" id: "227649005" -->
+        <fieldset>
+            <legend for="227649005">Email</legend>
+            <input id="1045781291" type="text" name="entry.1045781291" class="form-control" required>
         </fieldset>
 
         <input type="hidden" name="fvv" value="1">

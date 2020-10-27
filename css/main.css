@@ -81,7 +81,9 @@ h2 {
 }
 
 h2.hero-title a {
-    font-family: 'DrukText', sans-serif;
+    font-family: 'DrukTextBold', sans-serif;
+    font-weight: 900;
+    letter-spacing: 4px;
 }
 
 main {
