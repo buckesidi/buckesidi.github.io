@@ -11,6 +11,7 @@ layout: default
 	<img src="/img/ploca.png" alt="Vinyl album - Euforija" />
 </a>
 <h2>
+zoran
 	<a href="#" onclick="showPreorderForm()">
 		EUFORIJA VINYL PREORDER
 	</a>
