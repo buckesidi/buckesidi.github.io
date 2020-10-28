@@ -29,5 +29,6 @@ function validateForm(e) {
         errorElement.innerText = messages.join(', ');
         return;
     }
-    Swal.fire('Hvala!','Porudžbina je primljena!','success');
+    alert('Zahtev uspesno poslat!');
+    Swal.close()
 }
