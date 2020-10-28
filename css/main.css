@@ -16,7 +16,7 @@
 
 html,
 body {
-    background: #0d101c;
+    background: #131422;
     margin: 0;
     min-height: 100vh;
     position: relative;
@@ -30,8 +30,6 @@ body {
     background-size: cover;
     min-height: 100vh;
     -webkit-font-smoothing: antialiased;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: bolder;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,6 +37,8 @@ body {
 
 body {
     font-family: 'DrukText', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 4px;
 }
 
 img {
@@ -58,9 +58,9 @@ img {
 
 .button {
   background-color: Transparent;
-  border-bottom: 0.1em solid #e4473d;
+  border-bottom: 0.1em solid #f2483d;
   padding: 0.2em;
-  color: #e4473d;
+  color: #f2483d;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -76,7 +76,7 @@ h2 {
     text-align: center;
     font-size: 2.5rem;
     font-style: normal;
-    color: #e4473d;
+    color: #f2483d;
     text-decoration: none;
 }
 
@@ -145,7 +145,7 @@ iframe {
 }
 
 footer {
-    color: #e4473d;
+    color: #f2483d;
     margin: 2rem 0 .5rem 0 ;
     text-align: center;
     position: absolute;
@@ -153,7 +153,7 @@ footer {
 }
 
 footer a {
-    color: #e4473d;
+    color: #f2483d;
     font-size: 1.5rem;
     line-height: 1.7rem;
     margin-top: .3rem;
