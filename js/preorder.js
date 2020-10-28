@@ -5,7 +5,7 @@ function showPreorderForm()
     <form action="https://docs.google.com/forms/d/e/1FAIpQLSdfic_0Q0D5jr127c1gn_wO26kmamTHjM3ZAQKZA8EIFO72aA/formResponse"
         target="targetIframe"
         id="mainForm"
-        onsubmit="validateForm(event);Swal.fire('Hvala!','Porudžbina je primljena!','success'); Swal.close()"
+        onsubmit="validateForm(event);"
         method="POST">
 
         <!-- Field type: "short" id: "1633920210" -->

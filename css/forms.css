@@ -3,7 +3,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-input[type=text], select, textarea {
+input[type=text], select, textarea, input[type=number], input[type=email] {
     width: 100%;
     color: #eee;
     background: #0d101c;
