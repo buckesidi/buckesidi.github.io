@@ -63,5 +63,6 @@ Swal.fire({
     html: forma,
     showConfirmButton: false,
     showCloseButton: true,
-  });
+    closeOnClickOutside: false
+});
 }
