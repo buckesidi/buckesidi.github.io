@@ -34,8 +34,27 @@ legend {
 
 fieldset {
     border: none;
+    margin: 10px;
 }
 
 .hidden {
     display: none;
+}
+
+.swal2-title {
+    color: #f2483d;
+}
+
+
+
+
+
+
+.vinyl-flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+.vinyl-flex-item {
+    width:100px;
+    height: 100px;
 }
