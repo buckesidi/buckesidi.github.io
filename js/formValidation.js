@@ -1,23 +1,22 @@
-const form = document.getElementById('mainForm');
-const firstNameLastName = document.getElementById('2005620554');
-const phone = document.getElementById('1166974658');
-const state = document.getElementById('835883743');
-const city = document.getElementById('476110520');
-const zipCode = document.getElementById('2134337608');
-const street = document.getElementById('1065046570');
-const email = document.getElementById('1045781291');
-const errorElement = document.getElementById('error');
-
-form.addEventListener('submit', (e) => {
+function validateForm(e) {
+    let form = document.getElementById('mainForm');
+    let firstNameLastName = document.getElementById('2005620554');
+    let phone = document.getElementById('1166974658');
+    let state = document.getElementById('835883743');
+    let city = document.getElementById('476110520');
+    let zipCode = document.getElementById('2134337608');
+    let street = document.getElementById('1065046570');
+    let email = document.getElementById('1045781291');
+    let errorElement = document.getElementById('error');
     let messages = [];
     if (
-    firstNameLastName.value === '' || firstNameLastName.value == null
-    || state.value === '' || state.value == null
-    || city.value === '' || city.value == null
-    || zipCode.value === '' || zipCode.value == null
-    || street.value === '' || street.value == null
-    || email.value === '' || email.value == null
-    || phone.value === '' || phone.value == null)
+        firstNameLastName.value === '' || firstNameLastName.value == null
+        || state.value === '' || state.value == null
+        || city.value === '' || city.value == null
+        || zipCode.value === '' || zipCode.value == null
+        || street.value === '' || street.value == null
+        || email.value === '' || email.value == null
+        || phone.value === '' || phone.value == null)
     {
         messages.push('Popunite sva polja');
     }
@@ -29,4 +28,4 @@ form.addEventListener('submit', (e) => {
         e.preventDefault();
         errorElement.innerText = messages.join(', ');
     }
-});
+}
