@@ -56,6 +56,7 @@ fieldset {
 #formModal .modal-content {
     background-image: url('/img/bg-zrno.jpg');
     background-size: cover;
+    height: 100%;
 }
 @media (min-width: 768px) {
     .modal-dialog {
