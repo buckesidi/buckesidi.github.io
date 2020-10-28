@@ -29,6 +29,6 @@ function validateForm(e) {
         errorElement.innerText = messages.join(', ');
         return;
     }
+    alert('Zahtev uspesno poslat!');
     Swal.close()
-    document.dispatchEvent(closedSwalEvent);
 }
