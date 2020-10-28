@@ -30,6 +30,6 @@ function validateForm(e) {
         return;
     }
     alert('Zahtev uspesno poslat!');
-    Swal.close();
+    $('#formModal').modal('hide');
     document.dispatchEvent(closedSwalEvent);
 }
