@@ -1,6 +1,7 @@
 function showPreorderForm()
 {
     let forma = `
+    <div id="error"></div>
     <form action="https://docs.google.com/forms/d/e/1FAIpQLSdfic_0Q0D5jr127c1gn_wO26kmamTHjM3ZAQKZA8EIFO72aA/formResponse"
         target="targetIframe"
         id="mainForm"

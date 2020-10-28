@@ -1,17 +1,32 @@
 const form = document.getElementById('mainForm');
 const firstNameLastName = document.getElementById('2005620554');
 const phone = document.getElementById('1166974658');
+const state = document.getElementById('835883743');
+const city = document.getElementById('476110520');
+const zipCode = document.getElementById('2134337608');
+const street = document.getElementById('1065046570');
+const email = document.getElementById('1045781291');
+const errorElement = document.getElementById('error');
 
 form.addEventListener('submit', (e) => {
-    let errors = [];
-    if (firstNameLastName.value === '') {
-        errors.push('Ime ne može da bude prazno');
+    let messages = [];
+    if (
+    firstNameLastName.value === '' || firstNameLastName.value == null
+    || state.value === '' || state.value == null
+    || city.value === '' || city.value == null
+    || zipCode.value === '' || zipCode.value == null
+    || street.value === '' || street.value == null
+    || email.value === '' || email.value == null
+    || phone.value === '' || phone.value == null)
+    {
+        messages.push('Popunite sva polja');
     }
     const phoneRegex = /^\+?[0-9]+$/;
     if (!phone.value.trim().match(phoneRegex)) {
-        errors.push('Telefon mora biti u formatu (+)123456789');
+        messages.push('Telefon mora biti u formatu (+)123456789');
     }
-    if (errors.length > 0) {
+    if (messages.length > 0) {
         e.preventDefault();
+        errorElement.innerText = messages.join(', ');
     }
 });
