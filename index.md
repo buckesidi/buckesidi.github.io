@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="/css/forms.css" />
 <script src="/js/preorder.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
@@ -15,6 +17,33 @@ layout: default
 	</a>
 </h2>
 
+  <!-- Modal -->
+  
+<div class="container">
+  <h2>Modal Example</h2>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Hvala!</h4>
+        </div>
+        <div class="modal-body">
+          <p>Porudžbina je primljena.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Zatvori</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
 
 
 {% comment %}
