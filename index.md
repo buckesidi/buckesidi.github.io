@@ -63,7 +63,7 @@ layout: default
                               <img class="vinyl-flex-item item-3 vinyl-image small" src="/img/ploca.png">
                           </div>
                   </div>
-                  <div class="order-flex-item item-2>
+                  <div class="order-flex-item item-2">
                       <div id="error"></div>
                       <form action="https://docs.google.com/forms/d/e/1FAIpQLSdfic_0Q0D5jr127c1gn_wO26kmamTHjM3ZAQKZA8EIFO72aA/formResponse"
                           target="targetIframe"
