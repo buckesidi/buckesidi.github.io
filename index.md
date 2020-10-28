@@ -38,9 +38,9 @@ layout: default
           <button type="button" class="btn btn-default" data-dismiss="modal">Zatvori</button>
         </div>
       </div>
-      
-    </div>
-  </div>
+      <!-- END Modal content -->
+    </div> <!-- END modal-dialog -->
+  </div> <!-- END #myModal modal -->
   
   
   <!-- Modal Form-->
@@ -127,15 +127,16 @@ layout: default
                           </fieldset>
                       </form>
                       <iframe class="hidden" name="targetIframe"></iframe>
-                  </div>
-          </div>
+                  </div> <!-- END order-flex-item item-2 -->
+          </div> <!-- END order-flex-container -->
 
-        </div>
+        </div> <!-- END modal-content -->
         
-      </div>
-    </div>
-  
-</div>
+      </div> <!-- END modal-dialog -->
+    </div><!-- #formModal modal -->
+    <!--END Modal Form-->
+    
+</div> <!-- container -->
 
 
 {% comment %}
