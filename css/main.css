@@ -169,6 +169,11 @@ footer span {
     color: rgba(238, 238, 238, .6);
 }
 
+.swal2-container.swal2-center.swal2-backdrop-show {
+    background: url('/img/bg-zrno.jpg');
+    background-size: cover;
+}
+
 #soon {
     margin: 0;
     position: absolute;

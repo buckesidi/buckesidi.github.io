@@ -28,6 +28,10 @@ input[type=submit]:hover {
     background-color: #f27474;
 }
 
+legend {
+    display: none;
+}
+
 fieldset {
     border: none;
 }
