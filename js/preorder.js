@@ -5,7 +5,7 @@ function showPreorderForm()
     <form action="https://docs.google.com/forms/d/e/1FAIpQLSdfic_0Q0D5jr127c1gn_wO26kmamTHjM3ZAQKZA8EIFO72aA/formResponse"
         target="targetIframe"
         id="mainForm"
-        onsubmit="Swal.fire('Hvala!','Porudžbina je primljena!','success'); Swal.close()"
+        onsubmit="validateForm(event);Swal.fire('Hvala!','Porudžbina je primljena!','success'); Swal.close()"
         method="POST">
 
         <!-- Field type: "short" id: "1633920210" -->
@@ -43,7 +43,7 @@ function showPreorderForm()
         <!-- Field type: "short" id: "1770822543" -->
         <fieldset>
             <legend for="1770822543">Telefon</legend>
-            <input id="1166974658" placeholder="Telefon" type="text" name="entry.1166974658" class="form-control" >
+            <input id="1166974658" placeholder="Telefon" type="text" name="entry.1166974658" class="form-control" required>
         </fieldset>
         
         <!-- Field type: "short" id: "227649005" -->
