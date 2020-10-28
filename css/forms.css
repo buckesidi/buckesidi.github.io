@@ -47,7 +47,26 @@ fieldset {
 
 
 
+#formModal .modal-dialog {
+    width:100%;
+}
+#formModal .modal-header {
+    border-bottom: none;
+}
+#formModal .modal-content {
+    background-image: url('/img/bg-zrno.jpg');
+    background-size: cover;
+}
+@media (min-width: 768px) {
+    .modal-dialog {
+        margin:0;
+    }
+}
 
+.order-flex-container {
+    display: flex;
+    justify-content: space-around;
+}
 
 
 .vinyl-flex-container {
