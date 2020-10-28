@@ -27,5 +27,7 @@ function validateForm(e) {
     if (messages.length > 0) {
         e.preventDefault();
         errorElement.innerText = messages.join(', ');
+        return;
     }
+    Swal.fire('Hvala!','Porudžbina je primljena!','success'); Swal.close()
 }
