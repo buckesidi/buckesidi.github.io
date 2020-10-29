@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function showPreorderForm()
     {
         $('#formModal').modal('show');
+        $('#mainForm').trigger('reset');
     }
 
     const flipCard = document.querySelector('.flip-card');
