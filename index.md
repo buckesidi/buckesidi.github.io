@@ -8,7 +8,7 @@ layout: default
 <script src="/js/preorder.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/themes@4.0.0/borderless/borderless.min.css" />
-<a href="#" onclick="showPreorderForm()"><div class="flip-card">
+<div class="flip-card">
         <div class="flip-card-inner">
             <div class="flip-card-front">
                 <img src="/img/ploca.png" alt="Ploca prednja strana" style="width:300px;height:300px"/>
@@ -17,7 +17,7 @@ layout: default
                 <img src="/img/vinyl_back.jpg" alt="Ploca zadnja strana" style="width:300px; height:300px"/>
             </div>
         </div>
-    </div></a>
+</div>
 
 <h2 class="hero-title">
 	<a href="#" onclick="showPreorderForm()">
