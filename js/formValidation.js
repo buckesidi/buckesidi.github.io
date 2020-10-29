@@ -31,5 +31,6 @@ function validateForm(e) {
     }
     alert('Zahtev uspesno poslat!');
     $('#formModal').modal('hide');
+    document.getElementById("formModal").reset();
     document.dispatchEvent(closedSwalEvent);
 }
