@@ -30,7 +30,7 @@ function validateForm(e) {
         return;
     }
     alert('Zahtev uspesno poslat!');
+    document.getElementById("mainForm").reset();
     $('#formModal').modal('hide');
-    document.getElementById("formModal").reset();
     document.dispatchEvent(closedSwalEvent);
 }
