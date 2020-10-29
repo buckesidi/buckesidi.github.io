@@ -20,7 +20,7 @@ layout: default
 </div>
 
 <h2 class="hero-title">
-	<a href="#" onclick="showPreorderForm()">
+	<a href="#" id="hero__title">
 		EUFORIJA VINYL PREORDER
 	</a>
 </h2>
