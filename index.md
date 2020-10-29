@@ -11,7 +11,7 @@ layout: default
 <div class="flip-card">
         <div class="flip-card-inner">
             <div class="flip-card-front">
-                <img src="/img/ploca.png" alt="Ploca prednja strana" style="width:300px;height:300px"/>
+                <img src="/img/ploca.png" alt="Ploca prednja strana"/>
             </div>
             <div class="flip-card-back">
                 <img src="/img/vinyl_back.jpg" alt="Ploca zadnja strana" style="width:300px; height:300px"/>

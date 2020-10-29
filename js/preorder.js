@@ -1,7 +1,9 @@
-const flipCard = document.querySelector('.flip-card');
-flipCard.addEventListener('click', showPreorderForm);
+document.addEventListener('DOMContentLoaded', function() {
+    const flipCard = document.querySelector('.flip-card');
+    flipCard.addEventListener('click', showPreorderForm);
 
-function showPreorderForm()
-{
-    $('#formModal').modal('show');
-}
+    function showPreorderForm()
+    {
+        $('#formModal').modal('show');
+    }
+});
