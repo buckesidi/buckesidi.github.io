@@ -12,10 +12,10 @@ layout: default
 	<div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <img src="ploca.png" alt="Avatar" style="width:300px;height:300px;">
+                <img src="/img/ploca.png" alt="Avatar" style="width:300px;height:300px;">
               </div>
               <div class="flip-card-back">
-                <img src="vinyl_back.jpg" alt="Avatar" style="width:300px;height:300px;">
+                <img src="/img/vinyl_back.jpg" alt="Avatar" style="width:300px;height:300px;">
               </div>
             </div>
     </div>
