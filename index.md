@@ -72,6 +72,11 @@ layout: default
                           </div>
                   </div>
                   <div class="order-flex-item item-2">
+                      <h2 class="form__header big">BUC KESIDI - <br>EUFORIJA </h2>
+                      <p>12" VINYL LP</p>
+                      <p>(LIMITED EDITION)</p>
+                      <h2>3000 RSD / 28 e</h2>
+                      <p class="smallest">BESPLATNA POSTARINA</p>
                       <div id="error"></div>
                       <form action="https://docs.google.com/forms/d/e/1FAIpQLSdfic_0Q0D5jr127c1gn_wO26kmamTHjM3ZAQKZA8EIFO72aA/formResponse"
                           target="targetIframe"

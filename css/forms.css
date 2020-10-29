@@ -44,9 +44,30 @@ fieldset {
 .swal2-title {
     color: #f2483d;
 }
-
-
-
+/* FORM HEADER */
+.order-flex-item {
+    font-family: 'DrukText', sans-serif;
+    color: #f2483d;
+}
+.order-flex-item img {
+    max-width: 100%;
+}
+.order-flex-item.item-1 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.order-flex-item.item-2 {
+    width: 40%;
+}
+.order-flex-item.item-2 form {
+    width: 80%;
+    margin: 0 auto;
+}
+.vinyl-flex-container img {
+    max-height: 10vh;
+}
 #formModal .modal-dialog {
     width:100%;
     height: 100%;
@@ -74,8 +95,4 @@ fieldset {
 .vinyl-flex-container {
     display: flex;
     justify-content: space-around;
-}
-.vinyl-flex-item {
-    width:100px;
-    height: 100px;
 }
