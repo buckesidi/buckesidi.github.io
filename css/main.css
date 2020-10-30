@@ -73,11 +73,13 @@ h1 {
 
 h1, a,
 h2 {
-    text-align: center;
     font-size: 2.5rem;
     font-style: normal;
-    color: #f2483d;
     text-decoration: none;
+    font-family: 'DrukTextBold', sans-serif;
+    font-weight: 900;
+    letter-spacing: 4px;
+    color: #f2483d;
 }
 
 h2.hero-title a {
