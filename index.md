@@ -66,7 +66,7 @@ layout: default
                               <img class="vinyl-image big" src="/img/ploca.png">
                           </div>
                           <div class="vinyl-flex-container">
-                              <img class="vinyl-flex-item item-1 vinyl-image small" src="/img/ploca.png">
+                              <img class="vinyl-flex-item item-1 vinyl-image small" src="/img/vinyl_back.jpg">
                               <img class="vinyl-flex-item item-2 vinyl-image small" src="/img/ploca.png">
                               <img class="vinyl-flex-item item-3 vinyl-image small" src="/img/ploca.png">
                           </div>
