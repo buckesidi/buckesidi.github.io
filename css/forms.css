@@ -102,6 +102,12 @@ fieldset {
     background-size: cover;
     height: 100%;
 }
+#error {
+    color: white
+}
+#error::before {
+    content: "-";
+}
 @media (min-width: 768px) {
     .modal-dialog {
         margin:0;
