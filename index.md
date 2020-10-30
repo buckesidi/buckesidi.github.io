@@ -27,28 +27,28 @@ layout: default
 
   <!-- Modal -->
   
-<div class="container">
 
   <!-- Modal Thank You -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Hvala!</h4>
-        </div>
-        <div class="modal-body">
-          <p>Porudžbina je primljena.</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Zatvori</button>
-        </div>
-      </div>
-      <!-- END Modal content -->
-    </div> <!-- END modal-dialog -->
-  </div> <!-- END #myModal modal -->
+  <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+      
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130.2 130.2">
+            <circle class="path circle" fill="none" stroke="#73AF55" stroke-width="6" stroke-miterlimit="10" cx="65.1" cy="65.1" r="62.1"/>
+            <polyline class="path check" fill="none" stroke="#73AF55" stroke-width="6" stroke-linecap="round" stroke-miterlimit="10" points="100.2,40.2 51.5,88.8 29.8,67.5 "/>
+            </svg>
+            <p class="success">Hvala!</p>
+            <p>Vaša porudžbina je primljena</p>
+          </div>
+        </div> <!-- end modal content -->
+      </div><!-- end modal dialog -->
+    </div> <!-- END #myModal modal -->
   
   
   <!-- Modal Form-->
@@ -150,7 +150,6 @@ layout: default
     </div><!-- #formModal modal -->
     <!--END Modal Form-->
     
-</div> <!-- container -->
 
 
 {% comment %}
