@@ -24,7 +24,7 @@ layout: default
 		EUFORIJA VINYL PREORDER
 	</a>
 </h2>
-
+<div class="container">
   <!-- Modal -->
   
 
@@ -150,7 +150,7 @@ layout: default
     </div><!-- #formModal modal -->
     <!--END Modal Form-->
     
-
+</div> <!-- END CONTAINER -->
 
 {% comment %}
 
