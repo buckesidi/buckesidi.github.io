@@ -72,7 +72,7 @@ layout: default
                           </div>
                   </div>
                   <div class="order-flex-item item-2">
-		      <div class="order-flex-item.item-2 title">
+		      <div class="order-flex-item item-2 title">
 			      <h2 class="form__header big" style="text-align: left;">BUČ KESIDI - EUFORIJA </h2>
 			      <h2 style="text-align: left;">12" VINYL LP (LIMITED EDITION)</h2>
 			      <p>3000 RSD / 28 €</p>
