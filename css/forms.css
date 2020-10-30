@@ -50,6 +50,7 @@ fieldset {
     display: flex;
     justify-content: space-around;
     margin: 2% 10% 2% 10%;
+    flex-wrap: wrap;
 }
 
 .order-flex-item {
@@ -72,7 +73,7 @@ fieldset {
 }
 
 .order-flex-item.item-2 {
-    width: 30%;
+    min-width: 30%;
 }
 
 .order-flex-item.title {
