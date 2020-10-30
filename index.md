@@ -11,10 +11,10 @@ layout: default
 <div class="flip-card">
         <div class="flip-card-inner">
             <div class="flip-card-front">
-                <img src="/img/ploca.png" alt="Ploca prednja strana"/>
+                <img src="/img/ploca.png" alt="Ploča - prednja strana"/>
             </div>
             <div class="flip-card-back">
-                <img src="/img/vinyl_back.jpg" alt="Ploca zadnja strana" style="width:300px; height:300px"/>
+                <img src="/img/vinyl_back.jpg" alt="Ploča - zadnja strana" style="width:300px; height:300px"/>
             </div>
         </div>
 </div>
@@ -71,12 +71,11 @@ layout: default
                               <img class="vinyl-flex-item item-3 vinyl-image small" src="/img/ploca.png">
                           </div>
                   </div>
-                  <div class="order-flex-item item-2">
-                      <h2 class="form__header big">BUC KESIDI - <br>EUFORIJA </h2>
-                      <p>12" VINYL LP</p>
-                      <p>(LIMITED EDITION)</p>
-                      <h2>3000 RSD / 28 e</h2>
-                      <p class="smallest">BESPLATNA POSTARINA</p>
+                  <div class="order-flex-item item-2" style="text-align: left;">
+                      <h2 class="form__header big" style="text-align: left;">BUČ KESIDI - EUFORIJA </h2>
+                      <h2 style="text-align: left;">12" VINYL LP (LIMITED EDITION)</h2>
+                      <p>3000 RSD / 28 €</p>
+                      <p class="smallest">BESPLATNA POŠTARINA</p>
                       <div id="error"></div>
                       <form action="https://docs.google.com/forms/d/e/1FAIpQLSdfic_0Q0D5jr127c1gn_wO26kmamTHjM3ZAQKZA8EIFO72aA/formResponse"
                           target="targetIframe"
@@ -136,7 +135,7 @@ layout: default
                           </fieldset>
                   
                           <fieldset>
-                              <input class="btn btn-primary" type="submit" value="Naruči">
+                              <input class="btn btn-primary" type="submit" style="background-color: #f2483d" value="Naruči">
                           </fieldset>
                       </form>
                       <iframe class="hidden" name="targetIframe"></iframe>
