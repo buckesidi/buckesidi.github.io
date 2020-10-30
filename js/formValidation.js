@@ -29,7 +29,7 @@ function validateForm(e) {
         errorElement.innerText = messages.join(', ');
         return;
     }
-    alert('Zahtev uspesno poslat!');
+    // alert('Zahtev uspesno poslat!');
     $('#formModal').modal('hide');
     document.dispatchEvent(closedSwalEvent);
 }
