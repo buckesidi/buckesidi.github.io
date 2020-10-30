@@ -287,16 +287,16 @@ footer span {
 }
 #myModal p.success {
     color: white;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 #myModal p.error {
     color: #D06079;
 }
 
 svg {
-    width: 100px;
+    width: 80px;
     display: block;
-    margin: 40px auto 0;
+    margin: 20px auto 15px;
 }
 
 .path {
