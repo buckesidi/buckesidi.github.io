@@ -71,11 +71,13 @@ layout: default
                               <img class="vinyl-flex-item item-3 vinyl-image small" src="/img/ploca.png">
                           </div>
                   </div>
-                  <div class="order-flex-item item-2" style="text-align: left;">
-                      <h2 class="form__header big" style="text-align: left;">BUČ KESIDI - EUFORIJA </h2>
-                      <h2 style="text-align: left;">12" VINYL LP (LIMITED EDITION)</h2>
-                      <p>3000 RSD / 28 €</p>
-                      <p class="smallest">BESPLATNA POŠTARINA</p>
+                  <div class="order-flex-item item-2">
+		      <div class="order-flex-item.item-2 title">
+			      <h2 class="form__header big" style="text-align: left;">BUČ KESIDI - EUFORIJA </h2>
+			      <h2 style="text-align: left;">12" VINYL LP (LIMITED EDITION)</h2>
+			      <p>3000 RSD / 28 €</p>
+			      <p class="smallest">BESPLATNA POŠTARINA</p>
+		      </div>
                       <div id="error"></div>
                       <form action="https://docs.google.com/forms/d/e/1FAIpQLSdfic_0Q0D5jr127c1gn_wO26kmamTHjM3ZAQKZA8EIFO72aA/formResponse"
                           target="targetIframe"
