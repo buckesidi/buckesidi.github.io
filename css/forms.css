@@ -75,7 +75,7 @@ fieldset {
     width: 30%;
 }
 
-.order-flex-item.item-2 title {
+.order-flex-item item-2 title {
     text-align: left;
     margin-left: 10px;
     font-family: 'DrukText', sans-serif;
