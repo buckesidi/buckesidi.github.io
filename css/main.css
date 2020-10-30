@@ -262,7 +262,7 @@ footer span {
     margin: 0 auto;
 }
 
-#myModal .modal-header .close {
+.modal-header .close{
     color: white;
     opacity: 1;
     padding: 5px;
