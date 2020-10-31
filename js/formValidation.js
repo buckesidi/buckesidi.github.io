@@ -27,6 +27,7 @@ function validateForm(e) {
     if (messages.length > 0) {
         e.preventDefault();
         errorElement.innerText = messages.join(', ');
+        errorElement.classList.add('active');
         return;
     }
     // alert('Zahtev uspesno poslat!');

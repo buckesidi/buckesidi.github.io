@@ -105,11 +105,18 @@ fieldset {
 #error {
     color: white
 }
-#error::before {
+#error.active::before {
     content: "-";
 }
 @media (min-width: 768px) {
     .modal-dialog {
         margin:0;
+    }
+}
+
+@media (min-width: 400px) {
+    #formModal button.close {
+        padding: 10px;
+        font-size: 30px;
     }
 }

@@ -133,7 +133,7 @@ layout: default
                           <fieldset>
                               <legend for="227649005">Email</legend>
                               <input id="1045781291" placeholder="Email" type="email" name="entry.1045781291" class="form-control" oninvalid="this.setCustomValidity('Ovo polje je obavezno')"
-                              oninput="this.setCustomValidity('Email mora da bude u formatu some@example.com')" required>
+                               required>
                           </fieldset>
                   
                           <fieldset>
