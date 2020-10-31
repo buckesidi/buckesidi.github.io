@@ -132,7 +132,7 @@ layout: default
                           <!-- Field type: "short" id: "227649005" -->
                           <fieldset>
                               <legend for="227649005">Email</legend>
-                              <input id="1045781291" placeholder="Email" type="email" name="entry.1045781291" class="form-control" oninvalid="this.setCustomValidity('Ovo polje je obavezno')"
+                              <input id="1045781291" placeholder="Email" type="email" name="entry.1045781291" class="form-control"
                                required>
                           </fieldset>
                   
