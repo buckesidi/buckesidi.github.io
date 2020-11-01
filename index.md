@@ -11,10 +11,10 @@ layout: default
 <div class="flip-card">
         <div class="flip-card-inner">
             <div class="flip-card-front">
-                <img src="/img/ploca.png" alt="Ploča - prednja strana"/>
+                <img src="/img/ploca-front.png" alt="Ploča - prednja strana"/>
             </div>
             <div class="flip-card-back">
-                <img src="/img/vinyl_back.jpg" alt="Ploča - zadnja strana" style="width:300px; height:300px"/>
+                <img src="/img/ploca-back.png" alt="Ploča - zadnja strana"/>
             </div>
         </div>
 </div>
@@ -63,12 +63,11 @@ layout: default
           <div class='order-flex-container'>
                   <div class="vinyl__container order-flex-item item-1">
                           <div class="vinyl-image-container">
-                              <img class="vinyl-image big" src="/img/ploca.png">
+                              <img class="vinyl-image big" src="/img/ploca-front.png">
                           </div>
                           <div class="vinyl-flex-container">
-                              <img class="vinyl-flex-item item-1 vinyl-image small" src="/img/vinyl_back.jpg">
-                              <img class="vinyl-flex-item item-2 vinyl-image small" src="/img/ploca.png">
-                              <img class="vinyl-flex-item item-3 vinyl-image small" src="/img/ploca.png">
+                              <img class="vinyl-flex-item item-1 vinyl-image small" src="/img/ploca-front.png">
+                              <img class="vinyl-flex-item item-2 vinyl-image small" src="/img/ploca-back.png">
                           </div>
                   </div>
                   <div class="order-flex-item item-2">

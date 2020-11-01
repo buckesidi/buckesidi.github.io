@@ -120,3 +120,48 @@ fieldset {
         font-size: 30px;
     }
 }
+
+
+@media (max-width: 820px) {
+    #formModal .modal-content {
+        height: auto;
+    }
+    .order-flex-item.item-1 {
+        width: 80%;
+        margin-bottom:40px;
+    }
+}
+
+@media (max-width: 400px) {
+    #formModal .modal-content {
+        height: auto;
+    }
+    .order-flex-item.item-1 {
+        width: 100%;
+        margin-bottom:40px;
+    }
+
+}
+
+@media (max-width: 530px) {
+    .flip-card-front img,
+    .flip-card-back img {
+        height: 250px;
+    }
+    .flip-card-back img {
+        margin-left:-10px;
+
+    }
+    .flip-card-front img {
+        margin-left:-30px;
+
+    }
+    .flip-card-front,
+    .flip-card-back {
+        background: none;
+    }
+    .flip-card-inner {
+        box-shadow:none;
+    }
+
+}
