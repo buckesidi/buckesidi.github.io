@@ -138,7 +138,10 @@ layout: default
                           <!-- Field type: "short" id: "1930483335" -->
                          <fieldset>
                           <legend for="1930483335">Količina (maks. 4)</legend>
-                          <input id="631847714" placeholder="Količina (maks. 4)" type="number" max="4" name="entry.631847714" class="form-control" oninvalid="this.setCustomValidity('Ovo polje je obavezno')" oninput="this.setCustomValidity('')">
+                          <input id="631847714" placeholder="Količina (maks. 4)" type="number" max="4" name="entry.631847714" class="form-control"
+                           oninvalid="this.setCustomValidity('Ovo polje je obavezno (maks. 4)')"
+                            oninput="this.setCustomValidity('')"
+                           required>
                          </fieldset>
                   
                           <fieldset>
