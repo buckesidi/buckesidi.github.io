@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
         $('#formModal').modal('show');
         $('#mainForm').trigger('reset');
         $('#error').removeClass('active').text('');
+        $('.vinyl-image.big').attr('src', '/img/04.png');
     }
 
     const flipCard = document.querySelector('.flip-card');

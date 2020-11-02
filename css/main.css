@@ -136,12 +136,18 @@ main {
     color: black;
 }
 
-.flip-card-front img,
-.flip-card-back img{
+
+.flip-card-front img {
     width: auto;
-    height: 330px;
-    margin-top: -13px;
+    height: 354px;
+    margin-top: -17px;
     margin-left: -65px;
+}
+.flip-card-back img {
+    width: auto;
+    height: 354px;
+    margin-top: -17px;
+    margin-left: -105px;
 }
 
 .flip-card-back {
