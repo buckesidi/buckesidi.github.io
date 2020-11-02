@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     {
         $('#formModal').modal('show');
         $('#mainForm').trigger('reset');
-        $('#error').removeClass('active');
+        $('#error').removeClass('active').text('');
     }
 
     const flipCard = document.querySelector('.flip-card');
