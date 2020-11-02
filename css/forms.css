@@ -100,10 +100,13 @@ fieldset {
 #formModal .modal-content {
     background-image: url('/img/bg-zrno.jpg');
     background-size: cover;
-    height: 100%;
+    height: auto;
+    min-height: 100%;
 }
 #error {
-    color: white
+    color: white;
+    max-width: 450px;
+    letter-spacing: 2px;
 }
 #error.active::before {
     content: "-";
