@@ -7,6 +7,7 @@ function validateForm(e) {
     let zipCode = document.getElementById('2134337608');
     let street = document.getElementById('1065046570');
     let email = document.getElementById('1045781291');
+    let quantity = document.getElementById('631847714');
     let errorElement = document.getElementById('error');
     let messages = [];
     if (
@@ -16,6 +17,7 @@ function validateForm(e) {
         || zipCode.value === '' || zipCode.value == null
         || street.value === '' || street.value == null
         || email.value === '' || email.value == null
+        || quantity.value === '' || quantity.value == null
         || phone.value === '' || phone.value == null)
     {
         messages.push('Popunite sva polja');

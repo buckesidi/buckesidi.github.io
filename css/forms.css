@@ -107,6 +107,7 @@ fieldset {
 }
 #error.active::before {
     content: "-";
+    color: white;
 }
 @media (min-width: 768px) {
     .modal-dialog {
