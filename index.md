@@ -25,7 +25,13 @@ layout: default
 	</a>
 </h2>
 <div class="container">
-  <!-- Modal -->
+ 
+
+{% comment %}
+<!-- UBIO SAM SVE DA LJUDI NE BI VIDELI FORMU DOK NIJE GOTOVO -->
+
+
+ <!-- Modal -->
   
 
   <!-- Modal Thank You -->
@@ -154,6 +160,12 @@ layout: default
     <!--END Modal Form-->
     
 </div> <!-- END CONTAINER -->
+
+
+
+<!--UBIO SAM SVE SAD DA NE BI LJUDI VIDELI FORMU-->
+{% endcomment %}
+
 
 {% comment %}
 
