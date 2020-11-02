@@ -26,6 +26,10 @@ function validateForm(e) {
     if (!phone.value.trim().match(phoneRegex)) {
         messages.push('Telefon mora biti u formatu (+)123456789');
     }
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!email.value.trim().match(emailRegex)) {
+        messages.push('Email mora biti u formatu email@example.com');
+    }
     if (messages.length > 0) {
         e.preventDefault();
         errorElement.innerText = messages.join(', ');
