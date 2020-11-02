@@ -112,7 +112,7 @@ layout: default
                           <!-- Field type: "short" id: "1316787962" -->
                           <fieldset>
                               <legend for="1316787962">Poštanski broj</legend>
-                              <input id="2134337608" placeholder="Poštanski broj" type="number" name="entry.2134337608" class="form-control" oninvalid="this.setCustomValidity('Ovo polje je obavezno (koristite brojeve)')"
+                              <input id="2134337608" placeholder="Poštanski broj" type="number" min="0" name="entry.2134337608" class="form-control" oninvalid="this.setCustomValidity('Ovo polje je obavezno (koristite brojeve)')"
                               oninput="this.setCustomValidity('')">
                           </fieldset> 
                   
