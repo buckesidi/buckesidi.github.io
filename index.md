@@ -27,8 +27,6 @@ layout: default
 <div class="container">
  
 
-{% comment %}
-<!-- UBIO SAM SVE DA LJUDI NE BI VIDELI FORMU DOK NIJE GOTOVO -->
 
 
  <!-- Modal -->
@@ -164,8 +162,6 @@ layout: default
 
 
 
-<!--UBIO SAM SVE SAD DA NE BI LJUDI VIDELI FORMU-->
-{% endcomment %}
 
 
 {% comment %}
