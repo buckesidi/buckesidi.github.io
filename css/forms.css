@@ -150,7 +150,7 @@ fieldset {
 @media (max-width: 530px) {
     .flip-card-front img,
     .flip-card-back img {
-        height: 250px;
+        height: 230px;
     }
     .flip-card-back img {
         margin-left:-25px;
