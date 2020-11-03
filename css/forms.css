@@ -169,3 +169,8 @@ fieldset {
     }
 
 }
+@media (max-width: 1100px) {
+    .vinyl-flex-container {
+        flex-wrap:wrap;
+    }
+}

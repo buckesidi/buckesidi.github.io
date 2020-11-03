@@ -73,6 +73,7 @@ layout: default
                               <img class="vinyl-flex-item item-1 vinyl-image small" src="/img/01.png">
                               <img class="vinyl-flex-item item-2 vinyl-image small" src="/img/03.png">
                               <img class="vinyl-flex-item item-3 vinyl-image small" src="/img/02.png">
+                             <img class="vinyl-flex-item item-4 vinyl-image small hidden" src="/img/04.png">
                           </div>
                   </div>
                   <div class="order-flex-item item-2">

@@ -14,10 +14,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const smallImages = document.querySelectorAll('.vinyl-image.small');
     const bigImage = document.querySelector('.vinyl-image.big');
+    const hiddenSmallImage = document.querySelector('.vinyl-flex-item.small.hidden');
     smallImages.forEach(function(smallImg){
         let imgSrc = smallImg.getAttribute('src');
         smallImg.addEventListener('click',function(ev){
             bigImage.src = imgSrc;
+            hiddenSmallImage.classList.remove('hidden');
         });
     })
 });
