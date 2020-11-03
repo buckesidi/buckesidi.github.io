@@ -174,3 +174,14 @@ fieldset {
         flex-wrap:wrap;
     }
 }
+/* Chrome, Safari, Edge, Opera */
+input[name='entry.2134337608']::-webkit-outer-spin-button,
+input[name='entry.2134337608']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[name='entry.2134337608'] {
+    -moz-appearance: textfield;
+}

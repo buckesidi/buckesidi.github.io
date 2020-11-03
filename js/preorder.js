@@ -22,4 +22,17 @@ document.addEventListener('DOMContentLoaded', function() {
             hiddenSmallImage.classList.remove('hidden');
         });
     })
+
+    // form - quantity check 1-4
+    document.getElementById('631847714').addEventListener('input',function(ev){
+        var value = ev.target.value;
+        if (value !== '' ){
+            if (value > 4) {
+                ev.target.value = 4;
+            }
+            if (value < 1) {
+                ev.target.value = 1;
+            }
+        }
+    });
 });
