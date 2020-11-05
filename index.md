@@ -144,6 +144,12 @@ layout: default
                             oninput="this.setCustomValidity('')"
                            required>
                          </fieldset>
+                         
+                         <!-- Field  type: "text" id:"525111118" -->
+                          <fieldset>
+                            <legend for="525111118">Komentar (opciono)</legend>
+                            <input id="1356197128" placeholder="Komentar (opciono)" type="text" name="entry.1356197128" class="form-control">
+                          </fieldset>
                   
                           <fieldset>
                               <input class="btn btn-primary" type="submit" style="background-color: #f2483d" value="Naruči">
