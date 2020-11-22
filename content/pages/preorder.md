@@ -3,9 +3,9 @@ title: Početna
 slug: order
 date: 14-11-2020
 category: static
-save_as: index.html
+save_as: .preorder.html
 hide_title: True
-status: published
+status: draft
 ---
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
