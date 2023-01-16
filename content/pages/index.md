@@ -1,11 +1,14 @@
 ---
 title: Početna
 slug: index
-date: 14-11-2020
+date: 16-01-2022
 category: static
 save_as: index.html
 hide_title: True
 status: draft
 ---
 
-<img src="/static/img/ploca-rasprodato.png" alt="Ploča - rasprodato"/>
+<div class="container">
+	<h1>PRODAJA ULAZNICA:</h1><br>
+	<div id="flipdown" class="flipdown flipdown__theme-light"> </div>
+</div>
