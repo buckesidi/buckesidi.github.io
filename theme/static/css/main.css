@@ -4,6 +4,7 @@
 
 :root {
     --bg-main-color: #f3eee4;
+    --font-primary: 'Gustavo', sans-serif;
 }
   
 .clock {
@@ -15,14 +16,14 @@
 }
 
 @font-face {
-  font-family: 'DrukText';
-  src: url('/theme/fonts/DrukText-Medium.otf') format('opentype');
+  font-family: 'Gustavo';
+  src: url('/theme/fonts/Gustavo/Gustavo-Light.otf') format('opentype');
 }
 
 @font-face {
-  font-family: 'DrukTextBold';
+  font-family: 'GustavoBold';
   font-weight: bold;
-  src: url('/theme/fonts/DrukText-Bold.otf') format('opentype');
+  src: url('/theme/fonts/Gustavo/Gustavo-Bold.otf') format('opentype');
 }
 
 html {
@@ -48,23 +49,25 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-body {
-  font-family: 'DrukText', sans-serif;
+  font-family: 'Gustavo', sans-serif;
   font-weight: bolder;
   letter-spacing: 4px;
+  /* filter: contrast(1.1) sepia(10%); */
 }
 
 .container {
-  margin-top: -230px;
+  margin-top: -250px;
   max-width: 100%;
 }
 
 #flipdown {
   /* margin-top: -130px; */
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 
 img {
   max-width: 100%;
@@ -91,11 +94,6 @@ img {
   font-size: 2rem;
 }
 
-h1 {
-  text-transform: uppercase;
-  color: var(--bg-main-color);
-}
-
 h1,
 p,
 a,
@@ -104,14 +102,21 @@ footer a {
   font-size: 2.5rem;
   font-style: normal;
   text-decoration: none;
-  font-family: 'DrukTextBold', sans-serif;
+  font-family: var(--font-primary);
   font-weight: 900;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   color: var(--bg-main-color);
+  margin: 10px;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: var(--bg-main-color);
+  font-size: 3.2rem;
 }
 
 h2.hero-title a {
-  font-family: 'DrukTextBold', sans-serif;
+  font-family: var(--font-primary);
   font-weight: 900;
   letter-spacing: 4px;
   color: #f2483d;
@@ -160,11 +165,47 @@ footer span {
   color: rgba(238, 238, 238, 0.6);
 }
 
+
+
+@media screen and (min-width: 550px) {
+  .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):before {
+    bottom: 24px;
+    height: 8px;
+    width: 8px;
+    left: 116px;
+  }
+  .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):after {
+    bottom: 45px;
+    height: 8px;
+    width: 8px;
+    left: 116px;
+  }
+}
+
+
 @media screen and (max-width: 550px) {
   body {
     background: url('/theme/img/buckesidi_02.jpg') no-repeat center;
     background-size: cover;
   }
+  
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):before {
+    bottom: 14px;
+    height: 5px;
+    width: 5px;
+    left: 71px;
+  }
+  .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):after {
+    bottom: 30px;
+    height: 5px;
+    width: 5px;
+    left: 71px;
+  }
+
 }
 
 
@@ -176,6 +217,14 @@ footer span {
 
 
 @media (max-width: 330px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  footer {
+    letter-spacing: -1px;
+  }
+
   .flipdown .rotor-group {
       padding-right: 10px;
   }

@@ -9,6 +9,6 @@ status: draft
 ---
 
 <div class="container">
-	<h1>PRODAJA ULAZNICA:</h1><br>
+	<h1>PRODAJA ULAZNICA:</h1>
 	<div id="flipdown" class="flipdown flipdown__theme-light"> </div>
 </div>
