@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   // Unix timestamp (in seconds) to count down to
-
+  console.log('<3');
   // var countDownDate = new Date('January 19, 2023 10:00:00').getTime();
   // var twoDaysFromNow = (new Date().getTime() / 1000) + (86400 * 2) + 1;
   const containerEl = document.querySelector('.container');
