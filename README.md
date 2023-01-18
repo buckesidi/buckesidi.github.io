@@ -1,6 +1,6 @@
 # buckesidi.com
 
-Oficijelni portal benda „Buč kesidi“
+Zvanični portal benda „Buč Kesidi“
 
 ## Instalacija
 
