@@ -4,6 +4,7 @@
 
 :root {
     --bg-main-color: #f3eee4;
+    --text-main-color: #19171b;
     --font-primary: 'Gustavo', sans-serif;
 }
   
@@ -18,6 +19,12 @@
 @font-face {
   font-family: 'Gustavo';
   src: url('/theme/fonts/Gustavo/Gustavo-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'GustavoMedium';
+  src: url('/theme/fonts/Gustavo/Gustavo-Medium.otf') format('opentype');
+  font-weight: 900;
 }
 
 @font-face {
@@ -166,6 +173,60 @@ footer span {
 }
 
 
+.concerts {
+  display: none;
+  margin-top: -170px;
+  width: 100vw;
+  justify-content: space-evenly;
+}
+
+.concerts > a {
+  padding: 40px;
+}
+
+.concert p {
+  margin: 1px 20px;
+}
+
+.concert .btn {
+  margin-top: 20px;
+  padding: 1px 8px;
+  line-height: 1;
+  height: 2.9rem;
+  white-space: nowrap;
+}
+
+.concert:hover p:not(.btn){
+  color:rgba(238, 238, 238, 0.7);  
+}
+
+.concert:hover .btn {
+  background-color:rgba(238, 238, 238, 0.7);  
+}
+
+.btn {
+  background-color: var(--bg-main-color);
+  color: var(--text-main-color);
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 960px) {
+  .concerts > a {
+    padding: 5px
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .concerts {
+    flex-wrap: wrap;
+    margin-top: -80px;
+  }
+
+  body {
+    /* background: url('/theme/img/buckesidi_tablet.jpg') no-repeat center; */
+  }
+}
+
 
 @media screen and (min-width: 550px) {
   .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):before {
@@ -183,14 +244,18 @@ footer span {
 }
 
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 560px) {
   body {
-    background: url('/theme/img/buckesidi_02.jpg') no-repeat center;
+    background: url('/theme/img/buckesidi_tablet.jpg') no-repeat center;
     background-size: cover;
   }
   
   h1 {
     font-size: 2.2rem;
+  }
+
+  h1, p, a, h2, footer a {
+    font-size: 2rem;
   }
 
   .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):before {
@@ -209,9 +274,29 @@ footer span {
 }
 
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 400px) {
   .container {
     margin-top: -170px;
+  }
+
+  .concerts {
+    margin-top: -65px;
+  }
+
+  .concerts .btn {
+    margin-top: 10px;
+  }
+
+  .concerts > a {
+    margin: 0;
+  }
+
+  h1, p, a, h2, footer a {
+    font-size: 2rem;
+  }
+
+  footer a {
+    margin-right: 0;
   }
 }
 
