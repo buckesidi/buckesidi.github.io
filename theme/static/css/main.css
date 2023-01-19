@@ -8,14 +8,6 @@
     --font-primary: 'Gustavo', sans-serif;
 }
   
-.clock {
-  width: 650px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-}
-
 @font-face {
   font-family: 'Gustavo';
   src: url('/theme/fonts/Gustavo/Gustavo-Light.otf') format('opentype');
@@ -60,19 +52,6 @@ body {
   font-weight: bolder;
   letter-spacing: 4px;
   /* filter: contrast(1.1) sepia(10%); */
-}
-
-.container {
-  margin-top: -250px;
-  max-width: 100%;
-}
-
-#flipdown {
-  /* margin-top: -130px; */
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 
@@ -174,7 +153,7 @@ footer span {
 
 
 .concerts {
-  display: none;
+  display: flex;
   margin-top: -170px;
   width: 100vw;
   justify-content: space-evenly;
@@ -228,22 +207,6 @@ footer span {
 }
 
 
-@media screen and (min-width: 550px) {
-  .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):before {
-    bottom: 24px;
-    height: 8px;
-    width: 8px;
-    left: 116px;
-  }
-  .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):after {
-    bottom: 45px;
-    height: 8px;
-    width: 8px;
-    left: 116px;
-  }
-}
-
-
 @media screen and (max-width: 560px) {
   body {
     background: url('/theme/img/buckesidi_tablet.jpg') no-repeat center;
@@ -258,26 +221,10 @@ footer span {
     font-size: 2rem;
   }
 
-  .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):before {
-    bottom: 14px;
-    height: 5px;
-    width: 5px;
-    left: 71px;
-  }
-  .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):after {
-    bottom: 30px;
-    height: 5px;
-    width: 5px;
-    left: 71px;
-  }
-
 }
 
 
 @media screen and (max-width: 400px) {
-  .container {
-    margin-top: -170px;
-  }
 
   .concerts {
     margin-top: -65px;
@@ -310,20 +257,6 @@ footer span {
     letter-spacing: -1px;
   }
 
-  .flipdown .rotor-group {
-      padding-right: 10px;
-  }
-
-  .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):before {
-    bottom: 13px;
-    height: 4px;
-    width: 4px;
-  }
-  .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):after {
-    bottom: 29px;
-    height: 4px;
-    width: 4px;
-  }
 }
 
 @media only screen and (max-width: 315px) {
