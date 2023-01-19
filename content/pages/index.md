@@ -8,13 +8,8 @@ hide_title: True
 status: draft
 ---
 
-<div class="container">
-	<h1>PRODAJA ULAZNICA:</h1>
-	<div id="flipdown" class="flipdown flipdown__theme-light"> </div>
-</div>
-
 <div class="concerts">
-	<a href="https://tickets.rs/tour/buc_kesidi_238" class="concert" target="_blank">
+	<a href="http://www.gigstix.com/buckesidi2005" class="concert" target="_blank">
 		<p class='date'>20.5.</p>
 		<p class='city'>NOVI SAD</p>
 		<p class='venue'>SPENS</p>
