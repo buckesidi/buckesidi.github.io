@@ -163,6 +163,35 @@ footer span {
   padding: 40px;
 }
 
+.concert {
+  position: relative;
+}
+
+.concert.sold {
+  opacity: 0.5;
+  text-decoration: none;
+  pointer-events: none;
+
+}
+
+.concert.sold::after {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  content: 'RASPRODATO';
+  background-color: red;
+  padding: 1px 8px;
+  line-height: 1;
+  height: 2.9rem;
+  white-space: nowrap;
+  color: var(--bg-main-color);
+  display: inline-block;
+  -webkit-transform: rotate(-40deg);
+  -moz-transform: rotate(-40deg);
+  -o-transform: rotate(-40deg);
+  transform: rotate(-40deg);
+}
+
 .concert p {
   margin: 1px 20px;
 }
@@ -192,6 +221,10 @@ footer span {
 @media screen and (max-width: 960px) {
   .concerts > a {
     padding: 5px
+  }
+
+  .concert.sold::after {
+    left: 0;
   }
 }
 
