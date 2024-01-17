@@ -25,6 +25,8 @@ status: draft
     </div>
 
 </div>
-<!-- <section id="section07" class="demo">
+<div class="container">
+	<div id="flipdown" class="flipdown flipdown__theme-light"> </div>
+</div><!-- <section id="section07" class="demo">
   <a href="#section08"><span></span><span></span><span></span></a>
 </section> -->

@@ -1,17 +1,39 @@
 document.addEventListener('DOMContentLoaded', () => {
-  console.log('AAAA');
-});
+  // Unix timestamp (in seconds) to count down to
+  console.log('<3');
+  // var countDownDate = new Date('January 19, 2023 10:00:00').getTime();
+  // var twoDaysFromNow = (new Date().getTime() / 1000) + (86400 * 2) + 1;
+  const containerEl = document.querySelector('.container');
+  const concertsEl = document.querySelector('.albums');
 
-document.addEventListener('DOMContentLoaded', () => {
-  const scrollBtn = document.querySelector('#section07');
-  console.log('CAOO', scrollBtn);
-  scrollBtn.addEventListener('click', (e) => {
-    e.preventDefault();
-    alert('PERA');
-    // $('html, body').animate(
-    //   { scrollTop: $(this.attr('href')).offset().top },
-    //   500,
-    //   'linear'
-    // );
-  });
+  const toggleContent = () => {
+    containerEl.style.display = 'none';
+    concertsEl.style.display = 'flex';
+  };
+  const startDate = new Date('January 25, 2024 10:00:00');
+
+  if (new Date() > startDate) {
+    toggleContent();
+  }
+  var countDownDate = startDate.getTime() / 1000;
+
+  // Set up FlipDown
+  var flipdown = new FlipDown(countDownDate)
+
+    // Start the countdown
+    .start()
+
+    // Do something when the countdown ends
+    .ifEnded(() => {
+      toggleContent();
+      concertsEl.style.display = console.log('Ploče su u prodaji!');
+    });
+
+  // Toggle theme
+  // var interval = setInterval(() => {
+  //   let body = document.body;
+  //   body.classList.toggle('light-theme');
+  //   body.querySelector('#flipdown').classList.toggle('flipdown__theme-dark');
+  //   body.querySelector('#flipdown').classList.toggle('flipdown__theme-light');
+  // }, 5000);
 });
