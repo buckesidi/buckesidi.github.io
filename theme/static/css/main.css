@@ -41,7 +41,7 @@ body {
 }
 
 body {
-  background: url('/theme/img/buckesidi_01.jpg') no-repeat center;
+  background: url('/theme/img/BG_Desktop2.png') no-repeat center;
   background-size: cover;
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
@@ -55,10 +55,7 @@ body {
 }
 
 
-img {
-  max-width: 100%;
-  max-height: 60vh;
-}
+
 
 .item {
   border: none;
@@ -152,29 +149,34 @@ footer span {
 }
 
 
-.concerts {
+.albums {
   display: flex;
   margin-top: -170px;
   width: 100vw;
   justify-content: space-evenly;
 }
 
-.concerts > a {
+.albums > a {
   padding: 40px;
 }
 
-.concert {
+.album {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.concert.sold {
+
+.album.sold {
   opacity: 0.5;
   text-decoration: none;
   pointer-events: none;
 
 }
 
-.concert.sold::after {
+
+.album.sold::after {
   position: absolute;
   top: 50%;
   left: 10%;
@@ -192,23 +194,37 @@ footer span {
   transform: rotate(-40deg);
 }
 
-.concert p {
+.album p {
   margin: 1px 20px;
 }
 
-.concert .btn {
+.album .btn {
   margin-top: 20px;
-  padding: 1px 8px;
+  padding: 1px 28px;
   line-height: 1;
   height: 2.9rem;
   white-space: nowrap;
+  width: fit-content;
+  align-self: center;
 }
 
-.concert:hover p:not(.btn){
+.album__title {
+  text-align: center;
+}
+
+.album__img {
+
+}
+
+.album__img img {
+  width: 100%;
+}
+
+.album:hover p:not(.btn){
   color:rgba(238, 238, 238, 0.7);  
 }
 
-.concert:hover .btn {
+.album:hover .btn {
   background-color:rgba(238, 238, 238, 0.7);  
 }
 
@@ -218,32 +234,59 @@ footer span {
   margin-top: 20px;
 }
 
+@media screen and (max-width: 1174px) {
+  .albums {
+    flex-direction: column;
+    margin-top: -80px;
+    justify-content: space-around;
+    height: 100vh;
+  }
+
+  .albums .btn {
+    max-width: fit-content;
+    align-self: center;
+  }
+
+  body {
+    background: url('/theme/img/BG_Tablet.png') no-repeat center;
+    background-size: cover;
+  }
+}
+
 @media screen and (max-width: 960px) {
-  .concerts > a {
+  .albums > a {
     padding: 5px
   }
 
-  .concert.sold::after {
+  .album.sold::after {
     left: 0;
   }
 }
 
+
+
 @media screen and (max-width: 800px) {
-  .concerts {
+  /* .albums {
     flex-wrap: wrap;
     margin-top: -80px;
   }
 
   body {
-    /* background: url('/theme/img/buckesidi_tablet.jpg') no-repeat center; */
-  }
+    background: url('/theme/img/BG_Tablet.png') no-repeat center;
+    background-size: cover;
+  } */
 }
 
 
 @media screen and (max-width: 560px) {
   body {
-    background: url('/theme/img/buckesidi_tablet.jpg') no-repeat center;
+    /* background: url('/theme/img/buckesidi_tablet.jpg') no-repeat center; */
     background-size: cover;
+  }
+
+  .album img {
+    height: 150px;
+    width: auto;
   }
   
   h1 {
@@ -259,20 +302,21 @@ footer span {
 
 @media screen and (max-width: 400px) {
 
-  .concerts {
+  .albums {
     margin-top: -65px;
   }
 
-  .concerts .btn {
+  .albums .btn {
     margin-top: 10px;
+    height: 2rem;
   }
 
-  .concerts > a {
+  .albums > a {
     margin: 0;
   }
 
   h1, p, a, h2, footer a {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   footer a {
@@ -297,3 +341,66 @@ footer span {
     padding: 0;
   }
 }
+
+
+/* 
+* Scroll animated *
+
+
+#section07 a {
+  padding-top: 80px;
+}
+#section07 a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb07 2s infinite;
+  animation: sdb07 2s infinite;
+  opacity: 0;
+  box-sizing: border-box;
+}
+#section07 a span:nth-of-type(1) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+#section07 a span:nth-of-type(2) {
+  top: 16px;
+  -webkit-animation-delay: .15s;
+  animation-delay: .15s;
+}
+#section07 a span:nth-of-type(3) {
+  top: 32px;
+  -webkit-animation-delay: .3s;
+  animation-delay: .3s;
+}
+@-webkit-keyframes sdb07 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb07 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+ */

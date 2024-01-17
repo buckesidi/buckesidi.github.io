@@ -8,23 +8,23 @@ hide_title: True
 status: draft
 ---
 
-<div class="concerts">
-	<a href="" class="concert sold">
-		<p class='date'>20.5.</p>
-		<p class='city'>NOVI SAD</p>
-		<p class='venue'>SPENS</p>
-		<p class="btn">KUPI KARTE</p>
-	</a>
-	<a href="" class="concert sold">
-		<p class='date'>27.5.</p>
-		<p class='city'>ZAGREB</p>
-		<p class='venue'>ŠALATA</p>
-		<p class="btn">KUPI KARTE</p>
-	</a>
-	<a href="https://tickets.efinity.rs/CardType/EventInfo?cardTypeId=30469" class="concert" target="_blank">
-		<p class='date'>16.9.</p>
-		<p class='city'>BEOGRAD</p>
-		<p class='venue'>TAŠMAJDAN</p>
-		<p class="btn">KUPI KARTE</p>
-	</a>
+<div class="albums">
+	<div href="" class="album">
+		<div class="album-img">
+			<img src="/theme/img/Ploca1_Desktop.png"/>
+		</div>
+		<h2 class='album__title'>POSESIVNO-OSPULSIVNI HOSPUL<br>ZELENI VINIL</h2>
+		<p class="btn">USKORO U PRODAJI</p>
+	</div>
+	<div href="" class="album">
+		<div class="album-img">
+			<img src="/theme/img/Ploca2_Desktop.png"/>
+		</div>
+		<h2 class='album__title'>EUFORIJA<br>CRVENI VINIL</h2>
+    	<p class="btn">USKORO U PRODAJI</p>
+    </div>
+
 </div>
+<!-- <section id="section07" class="demo">
+  <a href="#section08"><span></span><span></span><span></span></a>
+</section> -->
