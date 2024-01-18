@@ -95,7 +95,7 @@ footer a {
   text-decoration: none;
   font-family: var(--font-primary);
   font-weight: 900;
-  letter-spacing: 3px;
+  /* letter-spacing: 3px; */
   color: var(--bg-main-color);
   margin: 10px;
 }
@@ -109,7 +109,7 @@ h1 {
 h2.hero-title a {
   font-family: var(--font-primary);
   font-weight: 900;
-  letter-spacing: 4px;
+  /* letter-spacing: 4px; */
   color: #f2483d;
 }
 
@@ -252,6 +252,9 @@ footer span {
     justify-content: space-around;
     /* height: 100vh; */
   }
+  .album__img {
+    width: 30%;
+  }
 
   .albums .btn {
     max-width: fit-content;
@@ -295,17 +298,12 @@ footer span {
     background-size: cover;
   }
 
-  .album img {
-    /* height: 150px;
-    width: auto; */
-  }
-
   .albums {
     gap: 40px;
   }
 
   .albums .btn {
-    padding: 3px 8px;
+    padding: 3px 28px;
     margin:0;
     margin-top: 20px;
     height: initial;
@@ -315,9 +313,18 @@ footer span {
     font-size: 2.2rem;
   }
 
-  h1, p, a, h2, footer a {
+  h1, p, a, h2, .btn, footer a {
     font-size: 1rem;
   }
+
+
+  .album__img {
+    width: 60%;
+  }
+
+  /* h2, .btn {
+    font-size: 1.5rem;
+  } */
 
 }
 
@@ -333,14 +340,15 @@ footer span {
     margin: 0;
   }
 
-  h1, p, a, h2, footer a {
-    font-size: 1.5rem;
+  h1, p, a, h2, .btn, footer a {
+    /* font-size: 1rem; */
     margin: 0 10px;
   }
 
   footer a {
     margin-right: 0;
   }
+  
 }
 
 
@@ -454,9 +462,7 @@ footer span {
 
 
 @media screen and (max-width: 1174px) {
-  .album__img {
-    width: 30%;
-  }
+
 
   .container {
     bottom: initial;
@@ -512,16 +518,9 @@ footer span {
     left: 71px;
   } */
   #container-mid {
-    margin: 4vh 0;
+    margin: 3vh 0;
   }
 
-  .album__img {
-    width: 60%;
-  }
-
-  h2, .btn {
-    font-size: 1.5rem;
-  }
 }
 
 
@@ -568,4 +567,9 @@ footer span {
   .album__img {
     width: 50%;
   }
+
+  #container-mid {
+    margin: 2vh 0;
+  }
+
 }
