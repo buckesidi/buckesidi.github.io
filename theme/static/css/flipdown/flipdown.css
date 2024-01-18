@@ -222,7 +222,7 @@
     }
   
     .flipdown .rotor {
-      font-size: 2.2rem;
+      font-size: 1.5rem;
       margin-right: 3px;
     }
   
@@ -245,7 +245,7 @@
     }
   
     .flipdown .rotor-group-heading:before {
-      font-size: 0.8rem;
+      font-size: 0.5rem;
       height: 20px;
       line-height: 20px;
     }
