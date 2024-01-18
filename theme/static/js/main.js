@@ -18,7 +18,18 @@ document.addEventListener('DOMContentLoaded', () => {
   var countDownDate = startDate.getTime() / 1000;
 
   // Set up FlipDown
-  var flipdown = new FlipDown(countDownDate)
+  var flipdown = new FlipDown(countDownDate, 'flipdown-low')
+
+    // Start the countdown
+    .start()
+
+    // Do something when the countdown ends
+    .ifEnded(() => {
+      toggleContent();
+      concertsEl.style.display = console.log('Ploče su u prodaji!');
+    });
+
+  var flipdown2 = new FlipDown(countDownDate, 'flipdown-mid')
 
     // Start the countdown
     .start()
