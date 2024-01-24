@@ -3,12 +3,33 @@ document.addEventListener('DOMContentLoaded', () => {
   console.log('<3');
   // var countDownDate = new Date('January 19, 2023 10:00:00').getTime();
   // var twoDaysFromNow = (new Date().getTime() / 1000) + (86400 * 2) + 1;
-  const containerEl = document.querySelector('.container');
-  const concertsEl = document.querySelector('.albums');
+  // const containerEl = document.querySelector('.container');
+  const containerMid = document.getElementById('container-mid');
+  const containerLow = document.getElementById('container-low');
+  const albumsEl = document.querySelector('.albums');
+  const albumElements = document.querySelectorAll('.album');
+  const hospulAlbum = albumElements[0];
+  const euforijaAlbum = albumElements[1];
+  const buyBtns = document.querySelectorAll('.album .buy-btn');
 
   const toggleContent = () => {
-    containerEl.style.display = 'none';
-    concertsEl.style.display = 'flex';
+    // containerEl.style.display = 'none';
+    if (containerLow && containerLow) {
+      containerMid.style.display = 'none';
+      containerLow.style.display = 'none';
+    }
+
+    albumsEl.classList.add('live');
+
+    albumElements.forEach((albumEl) => {
+      albumEl.classList.add('live');
+    });
+    hospulAlbum.setAttribute('href', 'https://buckesidi.lnk.to/hospul');
+    euforijaAlbum.setAttribute('href', 'https://buckesidi.lnk.to/euforija');
+    buyBtns.forEach((buyBtn) => {
+      buyBtn.innerText = 'NARUČI';
+    });
+    // albumsElements.style.display = 'flex';
   };
   const startDate = new Date('January 25, 2024 10:00:00');
 
@@ -26,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Do something when the countdown ends
     .ifEnded(() => {
       toggleContent();
-      concertsEl.style.display = console.log('Ploče su u prodaji!');
+      // albumsElements.style.display = console.log('Ploče su u prodaji!');
     });
 
   var flipdown2 = new FlipDown(countDownDate, 'flipdown-mid')
@@ -37,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Do something when the countdown ends
     .ifEnded(() => {
       toggleContent();
-      concertsEl.style.display = console.log('Ploče su u prodaji!');
+      // albumsElements.style.display = console.log('Ploče su u prodaji!');
     });
 
   // Toggle theme
