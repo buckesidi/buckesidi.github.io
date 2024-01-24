@@ -176,6 +176,11 @@ footer span {
   justify-content: space-between;
   flex: 1;
   align-items: center;
+  pointer-events: none;
+}
+
+.album.live {
+  pointer-events: initial;
 }
 
 
@@ -302,6 +307,10 @@ footer span {
     gap: 40px;
   }
 
+  .albums.live {
+    gap: 100px;
+  }
+
   .albums .btn {
     padding: 3px 28px;
     margin:0;
@@ -334,6 +343,10 @@ footer span {
   .albums {
     margin-top: -65px;
     gap: 10px;
+  }
+
+  .albums.live {
+    gap: 80px;
   }
 
   .albums > a {

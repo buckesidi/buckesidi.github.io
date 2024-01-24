@@ -9,23 +9,23 @@ status: draft
 ---
 
 <div class="albums">
-	<div href="" class="album">
+	<a href="#" class="album" target=blank>
 		<div class="album__img">
 			<img src="/theme/img/Ploca1_Desktop.png"/>
 		</div>
 		<h2 class='album__title'>POSESIVNO-OSPULSIVNI HOSPUL<br>ZELENI VINIL</h2>
-		<p class="btn">USKORO U PRODAJI</p>
-	</div>
+		<p class="btn buy-btn">USKORO U PRODAJI</p>
+	</a>
 	<div id="container-mid" class="container">
 		<div id="flipdown-mid" class="flipdown flipdown__theme-light"> </div>
 	</div>
-	<div href="" class="album">
+	<a href="#" class="album" target=blank>
 		<div class="album__img">
 			<img src="/theme/img/Ploca2_Desktop.png"/>
 		</div>
 		<h2 class='album__title'>EUFORIJA<br>CRVENI VINIL</h2>
-    	<p class="btn">USKORO U PRODAJI</p>
-    </div>
+    	<p class="btn buy-btn">USKORO U PRODAJI</p>
+    </a>
 </div>
 
 <div id="container-low" class="container">
