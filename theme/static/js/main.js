@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     // albumsElements.style.display = 'flex';
   };
-  const startDate = new Date('January 25, 2024 10:00:00');
+  const startDate = new Date('April 04, 2025 00:00:00');
 
   if (new Date() > startDate) {
     toggleContent();
