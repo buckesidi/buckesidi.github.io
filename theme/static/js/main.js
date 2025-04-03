@@ -19,22 +19,24 @@ document.addEventListener('DOMContentLoaded', () => {
       containerLow.style.display = 'none';
     }
 
-    albumsEl.classList.add('live');
+    // albumsEl.classList.add('live');
 
-    albumElements.forEach((albumEl) => {
-      albumEl.classList.add('live');
-    });
-    hospulAlbum.setAttribute('href', 'https://buckesidi.lnk.to/hospul');
-    euforijaAlbum.setAttribute('href', 'https://buckesidi.lnk.to/euforija');
-    buyBtns.forEach((buyBtn) => {
-      buyBtn.innerText = 'NARUČI';
-    });
+    // albumElements.forEach((albumEl) => {
+    //   albumEl.classList.add('live');
+    // });
+    // hospulAlbum.setAttribute('href', 'https://buckesidi.lnk.to/hospul');
+    // euforijaAlbum.setAttribute('href', 'https://buckesidi.lnk.to/euforija');
+    // buyBtns.forEach((buyBtn) => {
+    //   buyBtn.innerText = 'NARUČI';
+    // });
     // albumsElements.style.display = 'flex';
   };
   const startDate = new Date('April 04, 2025 00:00:00');
 
   if (new Date() > startDate) {
     toggleContent();
+    console.log("Redirecting to https://bfan.link/tuzne-ljubavi")
+    location.href="https://bfan.link/tuzne-ljubavi"
   }
   var countDownDate = startDate.getTime() / 1000;
 
