@@ -50,7 +50,7 @@ body {
 
 body {
   
-  background: url('/theme/img/PozadinaDesktop.jpg') no-repeat center;
+  background: url('/theme/img/buckesidi_desktop_1.jpeg') no-repeat right;
   background-size: cover;
   /* min-height: 100vh; */
   -webkit-font-smoothing: antialiased;
@@ -63,6 +63,26 @@ body {
   /* filter: contrast(1.1) sepia(10%); */
 }
 
+
+#container-low {
+  background: rgba(238, 238, 238, 0.7);
+  padding-left: 30px;
+  padding-right: 30px;
+  position: absolute;
+  /* top: 0; */
+  left: 100px;
+  right: 0; 
+  /* margin-inline: auto;  */
+  width: fit-content;
+  height: fit-content;
+}
+
+
+#title-container-low {
+  text-align: center;
+  font-size: 52px;
+  font-weight: bold;
+}
 
 
 
@@ -118,11 +138,11 @@ main {
   /* width: 100%; */
   /* max-width: 995px; */
   /* padding: 1rem; */
-  text-align: center;
+  /* text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   /* gap: 10vh; */
 }
 
@@ -252,56 +272,76 @@ footer span {
   margin-top: 20px;
 }
 
-@media screen and (max-width: 1174px) {
-  .albums {
-    flex-direction: column;
-    margin-top: -80px;
-    justify-content: space-around;
-    /* height: 100vh; */
-  }
-  .album__img {
-    width: 30%;
-  }
-
-  .albums .btn {
-    max-width: fit-content;
-    align-self: center;
-  }
-
-  body {
-    background: url('/theme/img/PozadinaDesktop.jpg') no-repeat center;
-    background-size: cover;
-  }
-}
-
-@media screen and (max-width: 960px) {
-  .albums > a {
-    padding: 5px
-  }
-
-  .album.sold::after {
-    left: 0;
-  }
-}
 
 
-
-@media screen and (max-width: 800px) {
-  /* .albums {
-    flex-wrap: wrap;
-    margin-top: -80px;
-  }
-
-  body {
-    background: url('/theme/img/BG_Tablet.png') no-repeat center;
+@media screen and (max-width: 2100px) {
+  /* body {
+    background: url('/theme/img/zoki_2.jpg') no-repeat center;
     background-size: cover;
   } */
+  #container-low {
+    /* background: rgba(238, 238, 238, 0.7);
+    padding: 30px;
+    position: absolute; */
+    top: 0;
+    /* left: 100px; */
+    right: 0; 
+    margin-inline: auto; 
+    width: fit-content;
+    height: fit-content;
+  }
+  
 }
 
 
-@media screen and (max-width: 560px) {
+/* @media screen and (max-width: 1801px) {
   body {
-    /* background: url('/theme/img/buckesidi_tablet.jpg') no-repeat center; */
+    background: url('/theme/img/desktop-1801.jpg') no-repeat center;
+    background-size: cover;
+  }
+} */
+
+
+@media screen and (max-width: 1500px) {
+  body {
+    background: url('/theme/img/buckesidi_ipad_2.jpeg') no-repeat center;
+    background-size: cover;
+  }
+  
+  main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 100px;
+  }
+  
+  .albums {
+    flex: 0;
+  }
+
+  #container-low {
+    /* background: rgba(238, 238, 238, 0.7);
+    padding: 30px; */
+    position: relative;
+    /* top: auto; */
+    /* bottom: 100px; */
+    /* left: 100px; */
+    left: 0; 
+    /* margin-inline: auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+  }
+}
+
+
+@media screen and (max-width: 660px) {
+  body {
+    background: url('/theme/img/buckesidi_mobile.jpeg') no-repeat center;
     background-size: cover;
   }
 
@@ -336,6 +376,45 @@ footer span {
   /* h2, .btn {
     font-size: 1.5rem;
   } */
+
+}
+
+
+
+@media screen and (max-width: 590px) {
+  body {
+    /* background: url('/theme/img/buckesidi_tablet.jpg') no-repeat center; */
+    font-size: 2rem;
+  }
+
+  /* .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):before {
+    bottom: 14px;
+    height: 5px;
+    width: 5px;
+    left: 71px;
+  }
+  .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):after {
+    bottom: 30px;
+    height: 5px;
+    width: 5px;
+    left: 71px;
+  } */
+  #container-mid {
+    margin: 3vh 0;
+  }
+
+  .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):before {
+    bottom: 24px;
+    height: 8px;
+    width: 8px;
+    left: 116px;
+  }
+  .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):after {
+    bottom: 45px;
+    height: 8px;
+    width: 8px;
+    left: 116px;
+  }
 
 }
 
@@ -397,69 +476,6 @@ footer span {
   }
 }
 
-
-/* 
-* Scroll animated *
-
-
-#section07 a {
-  padding-top: 80px;
-}
-#section07 a span {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  width: 24px;
-  height: 24px;
-  margin-left: -12px;
-  border-left: 1px solid #fff;
-  border-bottom: 1px solid #fff;
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  -webkit-animation: sdb07 2s infinite;
-  animation: sdb07 2s infinite;
-  opacity: 0;
-  box-sizing: border-box;
-}
-#section07 a span:nth-of-type(1) {
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-}
-#section07 a span:nth-of-type(2) {
-  top: 16px;
-  -webkit-animation-delay: .15s;
-  animation-delay: .15s;
-}
-#section07 a span:nth-of-type(3) {
-  top: 32px;
-  -webkit-animation-delay: .3s;
-  animation-delay: .3s;
-}
-@-webkit-keyframes sdb07 {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-@keyframes sdb07 {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
- */
-
  /** CLOCK **/
 
  .clock {
@@ -473,7 +489,7 @@ footer span {
 .container {
   bottom:200px;
   max-width: 100%;
-  margin-top: -5%;
+  /* margin-top: -5%; */
   /* position: absolute; */
 }
 
@@ -491,84 +507,7 @@ footer span {
 }
 
 
-@media screen and (max-width: 1174px) {
 
-
-  .container {
-    bottom: initial;
-    margin-top: -40px;
-    /* margin-top: -200px; */
-  }
-
-  #container-mid {
-    display: block;
-    margin: 8vh 0;
-  }
-
-  #flipdown-mid {
-    display: flex;
-    justify-content: center;
-  }
-
-  #container-low {
-    display: none;
-  }
-
-  .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):before {
-    bottom: 24px;
-    height: 8px;
-    width: 8px;
-    /* left: 116px; */
-  }
-  .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):after {
-    bottom: 45px;
-    height: 8px;
-    width: 8px;
-    /* left: 116px; */
-  }
-
-}
-
-
-@media screen and (max-width: 560px) {
-  body {
-    /* background: url('/theme/img/buckesidi_tablet.jpg') no-repeat center; */
-    font-size: 2rem;
-  }
-
-  /* .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):before {
-    bottom: 14px;
-    height: 5px;
-    width: 5px;
-    left: 71px;
-  }
-  .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):after {
-    bottom: 30px;
-    height: 5px;
-    width: 5px;
-    left: 71px;
-  } */
-  #container-mid {
-    margin: 3vh 0;
-  }
-
-}
-
-
-@media screen and (min-width: 561px) {
-  .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):before {
-    bottom: 24px;
-    height: 8px;
-    width: 8px;
-    left: 116px;
-  }
-  .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):after {
-    bottom: 45px;
-    height: 8px;
-    width: 8px;
-    left: 116px;
-  }
-}
 
 @media screen and (max-width: 400px) {
   .container {

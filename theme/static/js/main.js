@@ -13,30 +13,21 @@ document.addEventListener('DOMContentLoaded', () => {
   const buyBtns = document.querySelectorAll('.album .buy-btn');
 
   const toggleContent = () => {
-    // containerEl.style.display = 'none';
-    if (containerLow && containerLow) {
+    if (containerMid) {
       containerMid.style.display = 'none';
+    }
+    if (containerLow) {
       containerLow.style.display = 'none';
     }
 
-    // albumsEl.classList.add('live');
-
-    // albumElements.forEach((albumEl) => {
-    //   albumEl.classList.add('live');
-    // });
-    // hospulAlbum.setAttribute('href', 'https://buckesidi.lnk.to/hospul');
-    // euforijaAlbum.setAttribute('href', 'https://buckesidi.lnk.to/euforija');
-    // buyBtns.forEach((buyBtn) => {
-    //   buyBtn.innerText = 'NARUČI';
-    // });
-    // albumsElements.style.display = 'flex';
+    console.log("Redirecting to https://bfan.link/moderne-veze")
+    location.href="https://bfan.link/moderne-veze";
   };
-  const startDate = new Date('April 04, 2025 00:00:00');
+  // const startDate = new Date('June 30, 2025 11:00:00');
+  const startDate = new Date('June 30, 2025 11:00:00');
 
   if (new Date() > startDate) {
     toggleContent();
-    console.log("Redirecting to https://bfan.link/moderne-veze")
-    location.href="https://bfan.link/moderne-veze"
   }
   var countDownDate = startDate.getTime() / 1000;
 
@@ -49,7 +40,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // Do something when the countdown ends
     .ifEnded(() => {
       toggleContent();
-      // albumsElements.style.display = console.log('Ploče su u prodaji!');
     });
 
   var flipdown2 = new FlipDown(countDownDate, 'flipdown-mid')
@@ -60,7 +50,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // Do something when the countdown ends
     .ifEnded(() => {
       toggleContent();
-      // albumsElements.style.display = console.log('Ploče su u prodaji!');
     });
 
   // Toggle theme
