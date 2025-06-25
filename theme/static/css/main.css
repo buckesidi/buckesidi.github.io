@@ -272,6 +272,18 @@ footer span {
   margin-top: 20px;
 }
 
+@media screen and (min-width: 2101px) {
+  #container-low {
+    top: auto;
+    left: 200px;
+    right: 0;
+    bottom: 250px;
+    width: fit-content;
+    height: fit-content;
+    scale: 1.4;
+  }
+}
+
 
 
 @media screen and (max-width: 2100px) {
