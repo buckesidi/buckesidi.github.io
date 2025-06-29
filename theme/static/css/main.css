@@ -63,6 +63,11 @@ body {
   /* filter: contrast(1.1) sepia(10%); */
 }
 
+.buy-headline {
+  text-align: center;
+  font-size: 52px;
+  font-weight: bold;
+}
 
 #container-low {
   background: rgba(238, 238, 238, 0.7);
