@@ -29,18 +29,13 @@ document.addEventListener("DOMContentLoaded", () => {
     if (mainEl[0]) {
       mainEl[0].style.cursor = "pointer";
     }
+    titleEl.classList.add("active");
+    containerLow.classList.add("active");
     titleEl.innerText = "KUPI ULAZNICE";
-    titleEl.style.cursor = "pointer";
-    titleEl.style.backgroundColor = 'rgba(238, 238, 238, 1)';
-    titleEl.style.paddingTop = '15px';
-    titleEl.style.paddingBottom = '15px';
-    titleEl.style.color = 'black';
-    titleEl.style.fontSize = '30px';
-
+    
     if (containerLow) {
-      containerLow.style.backgroundColor = 'rgba(238, 238, 238, 1)';
-      containerLow.style.borderRadius = '50px';
-
+      containerLow.style.backgroundColor = "rgba(238, 238, 238, 1)";
+      containerLow.style.borderRadius = "50px";
     }
 
     const flipdownLow = document.getElementById("flipdown-low");
@@ -52,7 +47,6 @@ document.addEventListener("DOMContentLoaded", () => {
       console.log(flipdownLow);
       flipdownLow.style.display = "none";
     }
-    
 
     document.onclick = () => {
       console.log("redirecting to event");
@@ -73,7 +67,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       }, 2000);
     };
-   
 
     // console.log("Redirecting to https://bfan.link/moderne-veze")
     // location.href="https://bfan.link/moderne-veze";
